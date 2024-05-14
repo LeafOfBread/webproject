@@ -1,6 +1,7 @@
 import { Component, input } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -37,6 +38,12 @@ export class SignUpComponent {
     if (inputemail == '' || inputpassword == '' || inputpasswordconfirm == ''){
       alert ("Es wurden nicht alle Pflichtfelder ausgefüllt!");
     }
+    else if (inputpassword != inputpasswordconfirm){
+      alert ("Passwörter stimmen nicht ein!");
+    }
+    else if (inputpassword && inputpassword.length < 8) {
+      alert("Passwortlänge ist zu klein! Mindestens 8 Zeichen.");
+    }
     else {
       alert ("Erfolgreich registriert!");
     }
@@ -46,5 +53,9 @@ export class SignUpComponent {
   }
   showPasswordConfirm(){
     this.showConfirm = !this.showConfirm;
+  }
+  constructor(private router: Router){}
+  onRegister(){
+    this.router.navigate(['./login'])
   }
 }

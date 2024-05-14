@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { EmailValidator, FormControl, FormGroup, FormsModule, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import { empty } from 'rxjs';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -52,4 +52,8 @@ export class LoginComponent {
   }
 }
 
+  constructor(private router: Router){}
+  onRegister(){
+    this.router.navigate(['./sign-up'])
+  }
 }
