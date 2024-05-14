@@ -1,0 +1,31 @@
+<h2>Sign Up</h2>
+<form (ngSubmit)="submitForm()">
+    <div class="form-group">
+        <div>
+            <label for="email">E-Mail-Adresse</label>
+            <input type="email" required placeholder="mustermann@gmail.com" name="email" id="emailID" [(ngModel)]="email" ngModel="email">
+            <span>Email: {{ email }} </span>
+        </div>
+        <div>
+            <label for="password">Passwort</label>
+            <input type="password" name="password" id="passwordID" [(ngModel)]="password">
+            <span>Passwort: {{ password }} </span>
+        </div>
+        <div>
+            <label for="passwordconfirm">Passwort Bestätigen</label>
+            <input type="password" name="passwordconfirm" id="passwordconfirmID" [(ngModel)]="passwordconfirm">
+            <span>Passwort erneut: {{ passwordconfirm }} </span>
+        </div>
+        <div class="form-group">
+            <label for="firm">Firma</label>
+            <input type="text" value="FH Technikum Wien" readonly id="firmID">
+        </div>
+        <div class="adresse">
+            <label for="adresse">Adresse</label>
+            <input type="text" placeholder="Straße" name="street" id="streetID">
+            <input type="text" name="city" id="cityID" placeholder="Stadt">
+            <input type="number" name="plz" id="plzID" placeholder="Postleizahl">
+        </div>
+        <button type="submit" id="submitbutton">Registrieren</button>
+    </div>
+</form>

@@ -1,17 +1,15 @@
 <div>
     <h2>Login</h2>
-    <form>
-      <div class="form-group">
+    <form (ngSubmit)="login()">
+      <div [formGroup]="userdata">
         <label for="email">E-Mail-Adresse:</label>
-        <input type="email" id="email" name="email" class="form-control" [(ngModel)]="email" required>
-        <span>Email: {{ email }}</span>
+        <input [class.is-invalid] = "userdata.get('email')?.invalid && userdata.get('email')?.touched" type="email" required id="email" name="email" class="form-control" placeholder="mustermann@gmail.com" formControlName="email" required>
       </div>
-      <div class="form-group">
+      <div [formGroup]="userdata">
         <label for="password">Passwort:</label>
-        <input type="password" id="password" name="password" class="form-control" [(ngModel)]="password" required>
-        <span>Password: {{ password }}</span>
+        <input type="{{ showPassword ? 'text' : 'password' }}" id="password" name="password" class="form-control" formControlName="password" required>
+        <button type="button" (click)="passwordVisibility()">Passwort Anzeigen</button>
       </div>
-      <button type="submit" class="btn btn-primary">Login</button>
+      <input type="submit" name="submitbutton" id="submitID">
     </form>
   </div>
-  
