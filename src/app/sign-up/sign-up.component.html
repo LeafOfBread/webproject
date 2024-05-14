@@ -1,30 +1,29 @@
 <h2>Sign Up</h2>
 <form (ngSubmit)="submitForm()">
-    <div class="form-group">
+    <div [formGroup]="userdata">
         <div>
             <label for="email">E-Mail-Adresse</label>
-            <input type="email" required placeholder="mustermann@gmail.com" name="email" id="emailID" [(ngModel)]="email" ngModel="email">
-            <span>Email: {{ email }} </span>
+            <input type="email" [class.is-invalid]="userdata.get('email')?.invalid && userdata.get('email')?.touched" required placeholder="mustermann@gmail.com" class="form-control" name="email" id="emailID" formControlName="email">
         </div>
         <div>
             <label for="password">Passwort</label>
-            <input type="password" name="password" id="passwordID" [(ngModel)]="password">
-            <span>Passwort: {{ password }} </span>
+            <input type="{{ show ? 'text' : 'password' }}" name="password" id="passwordID" formControlName="password" class="form-control">
+            <button type="button" (click)="showPassword()">Passwort Anzeigen</button>
         </div>
         <div>
             <label for="passwordconfirm">Passwort Bestätigen</label>
-            <input type="password" name="passwordconfirm" id="passwordconfirmID" [(ngModel)]="passwordconfirm">
-            <span>Passwort erneut: {{ passwordconfirm }} </span>
+            <input type="{{ showConfirm ? 'text' : 'password' }}" name="passwordconfirm" id="passwordconfirmID" formControlName="passwordconfirm" class="form-control">
+            <button type="button" (click)="showPasswordConfirm()">Passwort Bestätigen Anzeigen</button>
         </div>
         <div class="form-group">
             <label for="firm">Firma</label>
-            <input type="text" value="FH Technikum Wien" readonly id="firmID">
+            <input type="text" value="FH Technikum Wien" readonly id="firmID" class="form-control">
         </div>
         <div class="adresse">
             <label for="adresse">Adresse</label>
-            <input type="text" placeholder="Straße" name="street" id="streetID">
-            <input type="text" name="city" id="cityID" placeholder="Stadt">
-            <input type="number" name="plz" id="plzID" placeholder="Postleizahl">
+            <input type="text" placeholder="Straße" name="street" id="streetID" formControlName="street" class="form-control">
+            <input type="text" name="city" id="cityID" placeholder="Stadt" formControlName="city" class="form-control">
+            <input type="number" name="plz" id="plzID" placeholder="Postleizahl" formControlName="plz" class="form-control">
         </div>
         <button type="submit" id="submitbutton">Registrieren</button>
     </div>

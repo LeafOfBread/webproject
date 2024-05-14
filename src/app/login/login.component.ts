@@ -39,7 +39,7 @@ export class LoginComponent {
     const inputemail = this.userdata.get('email')?.value;
     const inputpassword = this.userdata.get('password')?.value;
 
-    if (inputemail != '' && inputpassword!= ''){
+    if (inputemail != '' || inputpassword!= ''){
     if (inputemail == this.dummyemail && inputpassword == this.dummypassword){
       alert("Login successful!");
     }
