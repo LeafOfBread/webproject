@@ -1,6 +1,6 @@
 <h2>Sign Up</h2>
 <form (ngSubmit)="submitForm()">
-    <div [formGroup]="userdata">
+    <div [formGroup]="userdata" class="signupform">
         <div>
             <label for="email">E-Mail-Adresse</label>
             <input type="email" [class.is-invalid]="userdata.get('email')?.invalid && userdata.get('email')?.touched" required placeholder="mustermann@gmail.com" class="form-control" name="email" id="emailID" formControlName="email">

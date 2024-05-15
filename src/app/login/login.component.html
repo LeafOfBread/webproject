@@ -1,6 +1,6 @@
 <div>
     <h2>Login</h2>
-    <form (ngSubmit)="login()">
+    <form (ngSubmit)="login()"  class="loginform">
       <div [formGroup]="userdata">
         <label for="email">E-Mail-Adresse:</label>
         <input [class.is-invalid] = "userdata.get('email')?.invalid && userdata.get('email')?.touched" type="email" required id="email" name="email" class="form-control" placeholder="mustermann@gmail.com" formControlName="email" required>
