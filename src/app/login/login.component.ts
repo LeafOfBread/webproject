@@ -51,9 +51,4 @@ export class LoginComponent {
     alert("Email und Passwort sind Pflichtfelder!");
   }
 }
-
-  constructor(private router: Router){}
-  onRegister(){
-    this.router.navigate(['./sign-up'])
-  }
 }

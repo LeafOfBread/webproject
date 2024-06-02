@@ -54,8 +54,4 @@ export class SignUpComponent {
   showPasswordConfirm(){
     this.showConfirm = !this.showConfirm;
   }
-  constructor(private router: Router){}
-  onRegister(){
-    this.router.navigate(['./login'])
-  }
 }
