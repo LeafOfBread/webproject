@@ -1,7 +1,6 @@
-<nav>
-    <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">Login </a>
-    <a routerLink="/sign-up" routerLinkActive="active" ariaCurrentWhenActive="page">Register </a>
-    <a routerLink="/score-board" routerLinkActive="active" ariaCurrentWhenActive="page">Scores </a>
-    <button *ngIf="isLoggedIn" (click)="logout()">Logout</button>
-</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+    <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link"><strong>Login</strong></a>
+    <a routerLink="/sign-up" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link"><strong>Register</strong></a>
+    <a routerLink="/score-board" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link"><strong>Scores</strong></a>
+<button class="btn btn-primary" *ngIf="isLoggedIn" (click)="logout()">Logout</button>
 <router-outlet></router-outlet> 

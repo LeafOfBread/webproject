@@ -13,6 +13,13 @@ export class UserService {
 
   constructor(private http: HttpClient) {} // httpclient injecten
 
+  ngOnInit(): void {
+    const token = localStorage.getItem('sessionToken');
+    if (token) {
+      this.isLoggedInSubject.next(true);
+    }
+  }
+  
   login(username: string): void {
     this.isLoggedInSubject.next(true);
     this.username = username;
@@ -21,9 +28,9 @@ export class UserService {
   logout(): void {
     const token = localStorage.getItem('sessionToken');
     this.http.delete('http://localhost:3000/sessions', { body: { token } }).subscribe(() => {
-  localStorage.removeItem('sessionToken');
-  this.isLoggedInSubject.next(false);
-});
+      localStorage.removeItem('sessionToken');
+      this.isLoggedInSubject.next(false);
+    });
   }
 
   getUsername(): string {

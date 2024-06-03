@@ -8,12 +8,12 @@
         <div>
             <label for="password">Passwort</label>
             <input type="{{ show ? 'text' : 'password' }}" name="password" id="passwordID" formControlName="password" class="form-control">
-            <button type="button" (click)="showPassword()">Passwort Anzeigen</button>
+            <button type="button" (click)="showPassword()" class="btn btn-primary">Passwort Anzeigen</button>
         </div>
         <div>
             <label for="passwordconfirm">Passwort Bestätigen</label>
             <input type="{{ showConfirm ? 'text' : 'password' }}" name="passwordconfirm" id="passwordconfirmID" formControlName="passwordconfirm" class="form-control">
-            <button type="button" (click)="showPasswordConfirm()">Passwort Bestätigen Anzeigen</button>
+            <button type="button" (click)="showPasswordConfirm()" class="btn btn-primary">Passwort Bestätigen Anzeigen</button>
         </div>
         <div class="form-group">
             <label for="firm">Firma</label>
@@ -25,6 +25,6 @@
             <input type="text" name="city" id="cityID" placeholder="Stadt" formControlName="city" class="form-control">
             <input type="number" name="plz" id="plzID" placeholder="Postleizahl" formControlName="plz" class="form-control">
         </div>
-        <button type="submit" id="submitbutton">Registrieren</button>
+        <button type="submit" id="submitbutton" class="btn btn-primary">Registrieren</button>
     </div>
 </form>

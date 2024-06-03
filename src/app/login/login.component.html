@@ -8,8 +8,8 @@
       <div [formGroup]="userdata">
         <label for="password">Passwort:</label>
         <input type="{{ showPassword ? 'text' : 'password' }}" id="password" name="password" class="form-control" formControlName="password" required>
-        <button type="button" (click)="passwordVisibility()">Passwort Anzeigen</button>
+        <button type="button" (click)="passwordVisibility()" class="btn btn-primary">Passwort Anzeigen</button>
       </div>
-      <input type="submit" name="submitbutton" id="submitID">
+      <input type="submit" name="submitbutton" id="submitID" class="btn btn-primary">
     </form>
   </div>

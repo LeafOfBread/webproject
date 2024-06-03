@@ -2,5 +2,8 @@
     padding: 2.5%;
 }
 h2 {
-    padding: 2.5%;
+    padding: 10px;
+}
+.btn-primary{
+    margin: 10px;
 }
