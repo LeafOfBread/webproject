@@ -1,15 +1,17 @@
-import { Component, input } from '@angular/core';
-import { FormControl, FormGroup, FormsModule, Validators } from '@angular/forms';
+import { Component } from '@angular/core';
+import { EmailValidator, FormControl, FormGroup, FormsModule, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-
+import { HttpClient, HttpClientModule , HttpResponse} from '@angular/common/http';
+import { response } from 'express';
 
 @Component({
   selector: 'app-sign',
   standalone: true,
   imports: [
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   templateUrl: './sign-up.component.html',
   styleUrl: './sign-up.component.css'
@@ -30,24 +32,43 @@ export class SignUpComponent {
     show: boolean = false;
     showConfirm: boolean = false;
 
-  submitForm() {
-    const inputemail = this.userdata.get('email')?.value;
-    const inputpassword = this.userdata.get('password')?.value;
-    const inputpasswordconfirm = this.userdata.get('passwordconfirm')?.value;
+    constructor(private http: HttpClient) { }
 
-    if (inputemail == '' || inputpassword == '' || inputpasswordconfirm == ''){
-      alert ("Es wurden nicht alle Pflichtfelder ausgefüllt!");
+    getHelloWorld() {
+      return this.http.get('http://localhost:3000', { responseType: 'text' });
     }
-    else if (inputpassword != inputpasswordconfirm){
-      alert ("Passwörter stimmen nicht ein!");
+  
+    ngOnInit(){
+      this.getHelloWorld().subscribe(response => {
+        console.log(response);
+      })
     }
-    else if (inputpassword && inputpassword.length < 8) {
-      alert("Passwortlänge ist zu klein! Mindestens 8 Zeichen.");
+  
+    submitForm() {
+      const inputemail = this.userdata.get('email')?.value;
+      const inputpassword = this.userdata.get('password')?.value;
+      const inputpasswordconfirm = this.userdata.get('passwordconfirm')?.value;
+    
+      if (inputemail == '' || inputpassword == '' || inputpasswordconfirm == '') {
+        alert ("Es wurden nicht alle Pflichtfelder ausgefüllt!");
+      } else if (inputpassword !== inputpasswordconfirm) {
+        alert ("Die Passwörter stimmen nicht überein!");
+      } else {
+        this.http.post('http://localhost:3000/users', {
+          username: inputemail,
+          password: inputpassword
+        }, { observe: 'response' }).subscribe((response: HttpResponse<any>) => {
+          if (response.status === 201) {
+            alert("User created successfully");
+          } else if (response.status === 400) {
+            alert("User already exists");
+          }
+        }, error => {
+          console.error(error);
+        });
+      }
     }
-    else {
-      alert ("Erfolgreich registriert!");
-    }
-  }
+
   showPassword(){
     this.show = !this.show;
   }

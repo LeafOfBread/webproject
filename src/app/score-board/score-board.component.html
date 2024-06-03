@@ -1,0 +1,8 @@
+<div *ngIf="highscores.length > 0">
+    <h2>Highscores</h2>
+    <ul>
+      <li *ngFor="let highscore of highscores">
+        {{ highscore.username }}: {{ highscore.score }}
+      </li>
+    </ul>
+  </div>

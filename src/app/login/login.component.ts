@@ -2,18 +2,21 @@ import { Component } from '@angular/core';
 import { EmailValidator, FormControl, FormGroup, FormsModule, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { response } from 'express';
 
 @Component({
   selector: 'app-login',
   standalone: true,
   imports: [
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
+
 export class LoginComponent {
   title = 'Login';
   userdata = new FormGroup({
@@ -29,13 +32,26 @@ export class LoginComponent {
 
   submitLogin(){
     console.log("Login Submitted");
+    this.login();
+  }
+
+  constructor(private http: HttpClient){}
+
+  getHelloWorld() {
+    return this.http.get('http://localhost:3000', { responseType: 'text' });
+  }
+
+  ngOnInit(){
+    this.getHelloWorld().subscribe(response => {
+      console.log(response);
+    })
   }
 
   passwordVisibility(){
     this.showPassword = !this.showPassword;
   }
 
-  login(){
+  loginOld(){
     const inputemail = this.userdata.get('email')?.value;
     const inputpassword = this.userdata.get('password')?.value;
 
@@ -50,5 +66,16 @@ export class LoginComponent {
   else {
     alert("Email und Passwort sind Pflichtfelder!");
   }
+}
+
+login() {
+  const email = this.userdata.get('email')?.value;
+  const password = this.userdata.get('password')?.value;
+  this.http.post<{ token: string }>('http://localhost:3000/sessions', {username: email, password: password}).subscribe(response => {
+    localStorage.setItem('sessionToken', response.token);
+    console.log(response);
+  }, error => {
+    console.error(error);
+  });
 }
 }
