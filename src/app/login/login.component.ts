@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { response } from 'express';
+import { UserService } from '../user-service/user-service.component';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +12,7 @@ import { response } from 'express';
   imports: [
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
@@ -27,15 +28,13 @@ export class LoginComponent {
   });
 
   showPassword: boolean = false;
-  dummyemail: string = 'test@test.at';
-  dummypassword: string = '12345678';
 
   submitLogin(){
     console.log("Login Submitted");
     this.login();
   }
 
-  constructor(private http: HttpClient){}
+  constructor(private http: HttpClient, private userService: UserService){}
 
   getHelloWorld() {
     return this.http.get('http://localhost:3000', { responseType: 'text' });
@@ -51,31 +50,18 @@ export class LoginComponent {
     this.showPassword = !this.showPassword;
   }
 
-  loginOld(){
-    const inputemail = this.userdata.get('email')?.value;
-    const inputpassword = this.userdata.get('password')?.value;
-
-    if (inputemail != '' || inputpassword!= ''){
-    if (inputemail == this.dummyemail && inputpassword == this.dummypassword){
-      alert("Login successful!");
-    }
-    else {
-      alert("Login failed.");
-    }
+  login() {
+    const email = this.userdata.get('email')?.value;
+    const password = this.userdata.get('password')?.value;
+    this.http.post<{ token: string }>('http://localhost:3000/sessions', {username: email, password: password}).subscribe(response => {
+      localStorage.setItem('sessionToken', response.token);
+      console.log(response);
+      
+      if (email) { // check ob null oder undefinded
+        this.userService.login(email);
+      }
+    }, error => {
+      console.error(error);
+    });
   }
-  else {
-    alert("Email und Passwort sind Pflichtfelder!");
-  }
-}
-
-login() {
-  const email = this.userdata.get('email')?.value;
-  const password = this.userdata.get('password')?.value;
-  this.http.post<{ token: string }>('http://localhost:3000/sessions', {username: email, password: password}).subscribe(response => {
-    localStorage.setItem('sessionToken', response.token);
-    console.log(response);
-  }, error => {
-    console.error(error);
-  });
-}
 }
