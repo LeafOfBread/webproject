@@ -1,0 +1,12 @@
+{
+  "cloud" : {
+    "url" : "https://qodana.cloud/projects/3dkJo/reports/jN8kN",
+    "reportId" : "jN8kN",
+    "projectId" : "3dkJo",
+    "projectName" : "webproject",
+    "host" : "https://qodana.cloud"
+  },
+  "vcs" : {
+    "origin" : "https://github.com/LeafOfBread/webproject.git"
+  }
+}

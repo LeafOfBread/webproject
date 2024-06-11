@@ -1,0 +1,3198 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SPDXRef-project",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://project-dc48a447-fe77-645e-2377-54353e28abe5",
+  "creationInfo": {
+    "creators": [
+      "Tool: Qodana",
+      "Organization: JetBrains s.r.o."
+    ],
+    "created": "2024-06-03T20:48:29Z"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-project",
+      "name": "project",
+      "downloadLocation": "https://github.com/LeafOfBread/webproject.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-PROPRIETARY-LICENSE",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48e9bf45955cdf2725599f5dd9ea6e7691f34bd8"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "SPDXID": "SPDXRef-project-JS",
+      "name": "project:JS",
+      "versionInfo": "0.0.0",
+      "downloadLocation": "https://github.com/LeafOfBread/webproject.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-PROPRIETARY-LICENSE",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48e9bf45955cdf2725599f5dd9ea6e7691f34bd8"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-animations-17.3.7",
+      "name": "@angular/animations",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/animations/-/animations-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/animations",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "animations",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ahenGALPPweeHgqtl9BMkGIAV4fUNI5kOWUrLNbKBfwIJN+aOBOYV1Jz6NKUQq6eYn/1ZYtm0f3lIkHIdtLKEw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-common-17.3.7",
+      "name": "@angular/common",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/common/-/common-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/common",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "common",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "A7LRJu1vVCGGgrfZXjU+njz50SiU4weheKCar5PIUprcdIofS1IrHAJDqYh+kwXxkjXbZMOr/ijQY0+AESLEsw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-compiler-17.3.7",
+      "name": "@angular/compiler",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/compiler/-/compiler-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/compiler",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "compiler",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "AlKiqPoxnrpQ0hn13fIaQPSVodaVAIjBW4vpFyuKFqs2LBKg6iolwZ21s8rEI0KR2gXl+8ugj0/UZ6YADiVM5w"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-core-17.3.7",
+      "name": "@angular/core",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/core/-/core-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/core",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "core",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "HWcrbxqnvIMSxFuQdN0KPt08bc87hqr0LKm89yuRTUwx/2sNJlNQUobk6aJj4trswGBttcRDT+GOS4DQP2Nr4g"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-forms-17.3.7",
+      "name": "@angular/forms",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/forms/-/forms-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/forms",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "forms",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "FEhXh/VmT++XCoO8i7bBtzxG7Am/cE1zrr9aF+fWW+4jpWvJvVN1IaSiJxgBB+iPsOJ9lTBRwfRW3onlcDkhrw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "name": "@angular/platform-browser-dynamic",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/platform-browser-dynamic",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "platform-browser-dynamic",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "9c2I4u0L1p2v1/lW8qy+WaNHisUWbyy6wqsv2v9FfCaSM49Lxymgo9LPFPC4qEG5ei5nE+eIQ2ocRiXXsf5QkQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-platform-browser-17.3.7",
+      "name": "@angular/platform-browser",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/platform-browser",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "platform-browser",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "Nn8ZMaftAvO9dEwribWdNv+QBHhYIBrRkv85G6et80AXfXoYAr/xcfnQECRFtZgPmANqHC5auv/xrmExQG+Yeg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@angular-router-17.3.7",
+      "name": "@angular/router",
+      "versionInfo": "17.3.7",
+      "downloadLocation": "https://registry.npmjs.org/@angular/router/-/router-17.3.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@angular/router",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "router",
+      "supplier": "Person: angular",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "lMkuRrc1ZjP5JPDxNHqoAhB0uAnfPQ/q6mJrw1s8IZoVV6VyM+FxR5r13ajNcXWC38xy/YhBjpXPF1vBdxuLXg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-@popperjs-core-2.11.8",
+      "name": "@popperjs/core",
+      "versionInfo": "2.11.8",
+      "downloadLocation": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/@popperjs/core",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "core",
+      "supplier": "Person: Federico Zivolo <federico.zivolo@gmail.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-accepts-1.3.8",
+      "name": "accepts",
+      "versionInfo": "1.3.8",
+      "downloadLocation": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/accepts",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "accepts",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-array-flatten-1.1.1",
+      "name": "array-flatten",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/array-flatten",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "array-flatten",
+      "supplier": "Person: Blake Embrey",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "PCVAQswWemu6UdxsDFFX/+gVeYqKAod3D3UVm91jHwynguOwAvYPhx8nNlM++NqRcK6CxxpUafjmhIdKiHibqg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-body-parser-1.20.2",
+      "name": "body-parser",
+      "versionInfo": "1.20.2",
+      "downloadLocation": "https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/body-parser",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "body-parser",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-bootstrap-5.3.3",
+      "name": "bootstrap",
+      "versionInfo": "5.3.3",
+      "downloadLocation": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.3.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/bootstrap",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "bootstrap",
+      "supplier": "Person: The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-bytes-3.1.2",
+      "name": "bytes",
+      "versionInfo": "3.1.2",
+      "downloadLocation": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/bytes",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "bytes",
+      "supplier": "Person: TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-content-disposition-0.5.4",
+      "name": "content-disposition",
+      "versionInfo": "0.5.4",
+      "downloadLocation": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/content-disposition",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "content-disposition",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-content-type-1.0.5",
+      "name": "content-type",
+      "versionInfo": "1.0.5",
+      "downloadLocation": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/content-type",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "content-type",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-cookie-signature-1.0.6",
+      "name": "cookie-signature",
+      "versionInfo": "1.0.6",
+      "downloadLocation": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/cookie-signature",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "cookie-signature",
+      "supplier": "Person: TJ Holowaychuk <tj@learnboost.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-cookie-0.6.0",
+      "name": "cookie",
+      "versionInfo": "0.6.0",
+      "downloadLocation": "https://registry.npmjs.org/cookie/-/cookie-0.6.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/cookie",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "cookie",
+      "supplier": "Person: Roman Shtylman <shtylman@gmail.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-debug-2.6.9",
+      "name": "debug",
+      "versionInfo": "2.6.9",
+      "downloadLocation": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/debug",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "debug",
+      "supplier": "Person: TJ Holowaychuk <tj@vision-media.ca>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-depd-2.0.0",
+      "name": "depd",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/depd",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "depd",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-destroy-1.2.0",
+      "name": "destroy",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/destroy",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "destroy",
+      "supplier": "Person: Jonathan Ong",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-encodeurl-1.0.2",
+      "name": "encodeurl",
+      "versionInfo": "1.0.2",
+      "downloadLocation": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/encodeurl",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "encodeurl",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-escape-html-1.0.3",
+      "name": "escape-html",
+      "versionInfo": "1.0.3",
+      "downloadLocation": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/escape-html",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "escape-html",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-etag-1.8.1",
+      "name": "etag",
+      "versionInfo": "1.8.1",
+      "downloadLocation": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/etag",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "etag",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-express.js-1.0.0",
+      "name": "express.js",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://registry.npmjs.org/express.js/-/express.js-1.0.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/express.js",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "licenseInfoFromFiles": [
+        "ISC"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "express.js",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "zwgAG41IaAIxIHIp4dYZVasTF4GgMlUOxA0f+PpJNIcednzDaFo6pY86PXOnoEhAq1i5ooXYRw650Iggb+tkWQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-express-4.19.2",
+      "name": "express",
+      "versionInfo": "4.19.2",
+      "downloadLocation": "https://registry.npmjs.org/express/-/express-4.19.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/express",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "express",
+      "supplier": "Person: TJ Holowaychuk <tj@vision-media.ca>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-finalhandler-1.2.0",
+      "name": "finalhandler",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/finalhandler",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "finalhandler",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-forwarded-0.2.0",
+      "name": "forwarded",
+      "versionInfo": "0.2.0",
+      "downloadLocation": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/forwarded",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "forwarded",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-fresh-0.5.2",
+      "name": "fresh",
+      "versionInfo": "0.5.2",
+      "downloadLocation": "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/fresh",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "fresh",
+      "supplier": "Person: TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-http-errors-2.0.0",
+      "name": "http-errors",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/http-errors",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "http-errors",
+      "supplier": "Person: Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-iconv-lite-0.4.24",
+      "name": "iconv-lite",
+      "versionInfo": "0.4.24",
+      "downloadLocation": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/iconv-lite",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "iconv-lite",
+      "supplier": "Person: Alexander Shtuchkin <ashtuchkin@gmail.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-ipaddr.js-1.9.1",
+      "name": "ipaddr.js",
+      "versionInfo": "1.9.1",
+      "downloadLocation": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/ipaddr.js",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "ipaddr.js",
+      "supplier": "Person: whitequark <whitequark@whitequark.org>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-merge-descriptors-1.0.1",
+      "name": "merge-descriptors",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/merge-descriptors",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "merge-descriptors",
+      "supplier": "Person: Jonathan Ong",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-methods-1.1.2",
+      "name": "methods",
+      "versionInfo": "1.1.2",
+      "downloadLocation": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/methods",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "methods",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-mime-db-1.52.0",
+      "name": "mime-db",
+      "versionInfo": "1.52.0",
+      "downloadLocation": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/mime-db",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "mime-db",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-mime-types-2.1.35",
+      "name": "mime-types",
+      "versionInfo": "2.1.35",
+      "downloadLocation": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/mime-types",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "mime-types",
+      "supplier": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-mime-1.6.0",
+      "name": "mime",
+      "versionInfo": "1.6.0",
+      "downloadLocation": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/mime",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "mime",
+      "supplier": "Person: Robert Kieffer",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-ms-2.0.0",
+      "name": "ms",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/ms",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "ms",
+      "supplier": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-ms-2.1.3",
+      "name": "ms",
+      "versionInfo": "2.1.3",
+      "downloadLocation": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/ms",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "ms",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-negotiator-0.6.3",
+      "name": "negotiator",
+      "versionInfo": "0.6.3",
+      "downloadLocation": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/negotiator",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "negotiator",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-ngx-bootstrap-12.0.0",
+      "name": "ngx-bootstrap",
+      "versionInfo": "12.0.0",
+      "downloadLocation": "https://registry.npmjs.org/ngx-bootstrap/-/ngx-bootstrap-12.0.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/ngx-bootstrap",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "ngx-bootstrap",
+      "supplier": "Person: Dmitriy Shekhovtsov <valorkin@gmail.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "6/Hs+FT6peMc+Y2uiOm3IawG06Jh3gLQwwKRBF0U1OMlRbpx4KIyHS9GpZtMevtZaBsCRNfHKiSxwsnvn9wx0Q"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-on-finished-2.4.1",
+      "name": "on-finished",
+      "versionInfo": "2.4.1",
+      "downloadLocation": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/on-finished",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "on-finished",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-parseurl-1.3.3",
+      "name": "parseurl",
+      "versionInfo": "1.3.3",
+      "downloadLocation": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/parseurl",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "parseurl",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-path-to-regexp-0.1.7",
+      "name": "path-to-regexp",
+      "versionInfo": "0.1.7",
+      "downloadLocation": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/path-to-regexp",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "path-to-regexp",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-proxy-addr-2.0.7",
+      "name": "proxy-addr",
+      "versionInfo": "2.0.7",
+      "downloadLocation": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/proxy-addr",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "proxy-addr",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-qs-6.11.0",
+      "name": "qs",
+      "versionInfo": "6.11.0",
+      "downloadLocation": "https://registry.npmjs.org/qs/-/qs-6.11.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/qs",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "qs",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-range-parser-1.2.1",
+      "name": "range-parser",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/range-parser",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "range-parser",
+      "supplier": "Person: TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-raw-body-2.5.2",
+      "name": "raw-body",
+      "versionInfo": "2.5.2",
+      "downloadLocation": "https://registry.npmjs.org/raw-body/-/raw-body-2.5.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/raw-body",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "raw-body",
+      "supplier": "Person: Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-rxjs-7.8.1",
+      "name": "rxjs",
+      "versionInfo": "7.8.1",
+      "downloadLocation": "https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/rxjs",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "Apache-2.0"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "rxjs",
+      "supplier": "Person: Ben Lesh <ben@benlesh.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-safe-buffer-5.2.1",
+      "name": "safe-buffer",
+      "versionInfo": "5.2.1",
+      "downloadLocation": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/safe-buffer",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "safe-buffer",
+      "supplier": "Person: Feross Aboukhadijeh",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-safer-buffer-2.1.2",
+      "name": "safer-buffer",
+      "versionInfo": "2.1.2",
+      "downloadLocation": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/safer-buffer",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "safer-buffer",
+      "supplier": "Person: Nikita Skovoroda",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-send-0.18.0",
+      "name": "send",
+      "versionInfo": "0.18.0",
+      "downloadLocation": "https://registry.npmjs.org/send/-/send-0.18.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/send",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "send",
+      "supplier": "Person: TJ Holowaychuk <tj@vision-media.ca>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-serve-static-1.15.0",
+      "name": "serve-static",
+      "versionInfo": "1.15.0",
+      "downloadLocation": "https://registry.npmjs.org/serve-static/-/serve-static-1.15.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/serve-static",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "serve-static",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "XGuRDNjXUijsUL0vl6nSD7cwURuzEgglbOaFuZM9g3kwDXOWVTck0jLzjPzGD+TazWbboZYu52/9/XPdUgne9g"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-setprototypeof-1.2.0",
+      "name": "setprototypeof",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/setprototypeof",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "licenseInfoFromFiles": [
+        "ISC"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "setprototypeof",
+      "supplier": "Person: Wes Todd",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-statuses-2.0.1",
+      "name": "statuses",
+      "versionInfo": "2.0.1",
+      "downloadLocation": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/statuses",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "statuses",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-tslib-2.6.2",
+      "name": "tslib",
+      "versionInfo": "2.6.2",
+      "downloadLocation": "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/tslib",
+      "licenseConcluded": "0BSD",
+      "licenseDeclared": "0BSD",
+      "licenseInfoFromFiles": [
+        "0BSD"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "tslib",
+      "supplier": "Microsoft Corporation",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-type-is-1.6.18",
+      "name": "type-is",
+      "versionInfo": "1.6.18",
+      "downloadLocation": "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/type-is",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "type-is",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-unpipe-1.0.0",
+      "name": "unpipe",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/unpipe",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "unpipe",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-utils-merge-1.0.1",
+      "name": "utils-merge",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/utils-merge",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "utils-merge",
+      "supplier": "Person: Jared Hanson",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-vary-1.1.2",
+      "name": "vary",
+      "versionInfo": "1.1.2",
+      "downloadLocation": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/vary",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "vary",
+      "supplier": "Person: Douglas Christopher Wilson <doug@somethingdoug.com>",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "SPDXID": "SPDXRef-zone.js-0.14.5",
+      "name": "zone.js",
+      "versionInfo": "0.14.5",
+      "downloadLocation": "https://registry.npmjs.org/zone.js/-/zone.js-0.14.5.tgz",
+      "filesAnalyzed": true,
+      "homepage": "https://www.npmjs.com/package/zone.js",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "copyrightText": "NOASSERTION",
+      "packageFileName": "zone.js",
+      "supplier": "Person: Brian Ford",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "9XYWZzY6PhHOSdkYryNcMm7L8EK7a4q+GbTvxbIA2a9lMdRUpGuyaYvLDcg8D6bdn+JomSsbPcilVKg6SmUx6w"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-angular-animations-17.3.7-MIT",
+      "fileName": "./animations/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fe8d4a6e68ef7ccb8f066289556c10bd2871bd3145319bf12a0456629c599f30"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-common-17.3.7-MIT",
+      "fileName": "./common/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c3d3775b091653344998fafa9a78060ae7c3e372fb68cb9b683ad85e9601ea0"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-compiler-17.3.7-MIT",
+      "fileName": "./compiler/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54b03af5ac6f1cbf9888a6dd7cf81da895a622f3f3c868b9936dbfdb050f58cf"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-core-17.3.7-MIT",
+      "fileName": "./core/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "abf6034930a5666eb55f33641e14c442eb3ace85c8db02630aa4be3936558efb"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-forms-17.3.7-MIT",
+      "fileName": "./forms/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7d5034a5d0509807f951c5b7737bd2858ac95257f8a902853c1191c0fa4165d"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-platform-browser-dynamic-17.3.7-MIT",
+      "fileName": "./platform-browser-dynamic/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "393322dc46f3adcbe5a7ce991ae76dd348fe79278c0ad10bc066e28b94db066a"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-platform-browser-17.3.7-MIT",
+      "fileName": "./platform-browser/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de6f65cbf658184cbc47c2b37396d3a46568ef3abfeef37867a7cb4c247e4111"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-angular-router-17.3.7-MIT",
+      "fileName": "./router/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ae744659761453f68c5321cec3d4d2c33472135a12d40d06b2a546a24eaea2a"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-popperjs-core-2.11.8-MIT",
+      "fileName": "./core/LICENSE.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf67e2c9b7974543bb18ced3a0b37f53729aaff953b442dd89a3adaf90fd93e8"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2019 Federico Zivolo\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-accepts-1.3.8-MIT",
+      "fileName": "./accepts/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-array-flatten-1.1.1-MIT",
+      "fileName": "./array-flatten/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2014 Blake Embrey (hello@blakeembrey.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-body-parser-1.20.2-MIT",
+      "fileName": "./body-parser/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-bootstrap-5.3.3-MIT",
+      "fileName": "./bootstrap/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c14611ae41ac6fd543c13349f22188eb12c69b3e59105c5eca3925a8e4eca3e"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2011-2024 The Bootstrap Authors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-bytes-3.1.2-MIT",
+      "fileName": "./bytes/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2015 Jed Watson <jed.watson@me.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-content-disposition-0.5.4-MIT",
+      "fileName": "./content-disposition/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2017 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-content-type-1.0.5-MIT",
+      "fileName": "./content-type/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2015 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-cookie-signature-1.0.6-MIT",
+      "fileName": "./cookie-signature/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ab66777a673ae096d6b5aa51b5edb46b84e6fcd85dc03358c35576e3df0464f5"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-cookie-0.6.0-MIT",
+      "fileName": "./cookie/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>\nCopyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-debug-2.6.9-MIT",
+      "fileName": "./debug/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software \nand associated documentation files (the 'Software'), to deal in the Software without restriction, \nincluding without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, \nand/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial \nportions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT \nLIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. \nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, \nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE \nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-depd-2.0.0-MIT",
+      "fileName": "./depd/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd134b41da59e452fb5a1d366b660886f741c87c2bf9428e93764c419fbc40f5"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2018 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-destroy-1.2.0-MIT",
+      "fileName": "./destroy/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ffe370c8785b0b688d954977ce8dc52e19e5f17962cc5f80009c85eba4925d56"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2014 Jonathan Ong me@jongleberry.com\nCopyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-encodeurl-1.0.2-MIT",
+      "fileName": "./encodeurl/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7585ea7bba616ccbbe43cb54ecb67956688c3c5641bb84f3099a652a73193afe"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2016 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-escape-html-1.0.3-MIT",
+      "fileName": "./escape-html/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "255aa557a1f55224ce522f311629c0bf20854740a67955cefd798fbd1d3d1ded"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012-2013 TJ Holowaychuk\nCopyright (c) 2015 Andreas Lubbe\nCopyright (c) 2015 Tiancheng \"Timothy\" Gu\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-etag-1.8.1-MIT",
+      "fileName": "./etag/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7996721249a136fbcfc1c201bcb5f414f38a701d4a24f28abe65e16cfcce813"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2016 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-express.js-1.0.0-ISC",
+      "fileName": "./express.js/package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3334ade28265709182c74dd0319f167b6d7b3251a2a97d02d87ca3f6361c4df0"
+        }
+      ],
+      "fileTypes": [
+        "OTHER"
+      ],
+      "licenseConcluded": "ISC",
+      "licenseInfoInFiles": [
+        "ISC"
+      ],
+      "noticeText": "ISC"
+    },
+    {
+      "SPDXID": "SPDXRef-express-4.19.2-MIT",
+      "fileName": "./express/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "95a5762890e5c1c9808921cef095661fc482c5e1f0bba31446ac85595df6237c"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com>\nCopyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-finalhandler-1.2.0-MIT",
+      "fileName": "./finalhandler/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "47dcccf62bf40469d23849b0b1dc8df9fc91bce219b880c638d4dc4596e6b5cf"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2022 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-forwarded-0.2.0-MIT",
+      "fileName": "./forwarded/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2017 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-fresh-0.5.2-MIT",
+      "fileName": "./fresh/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2016-2017 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-http-errors-2.0.0-MIT",
+      "fileName": "./http-errors/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcb94ff9b1e037a847bc20589dc81a1066d041fd4c16deb18b0fa968c66cf395"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2014 Jonathan Ong me@jongleberry.com\nCopyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-iconv-lite-0.4.24-MIT",
+      "fileName": "./iconv-lite/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "Copyright (c) 2011 Alexander Shtuchkin\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-ipaddr.js-1.9.1-MIT",
+      "fileName": "./ipaddr.js/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "Copyright (C) 2011-2017 whitequark <whitequark@whitequark.org>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-merge-descriptors-1.0.1-MIT",
+      "fileName": "./merge-descriptors/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "62fb7d7c1822fe783895866057247bbd50164b00631fce9e4981d3897bdee4d9"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2013 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-methods-1.1.2-MIT",
+      "fileName": "./methods/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1da7f0788d14d545b2b953f78a27b916d320dfa174c2fcfa124c5aaffa81056e"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2013-2014 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-mime-db-1.52.0-MIT",
+      "fileName": "./mime-db/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2015-2022 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-mime-types-2.1.35-MIT",
+      "fileName": "./mime-types/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-mime-1.6.0-MIT",
+      "fileName": "./mime/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8f2658c03422c408b2b2ce4d151decc3b1a6fd3d86e5ca9433777bccdcdf75a2"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2010 Benjamin Thomas, Robert Kieffer\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-ms-2.0.0-MIT",
+      "fileName": "./ms/license.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6652830c2607c722b66f1b57de15877ab8fc5dca406cc5b335afeb365d0f32c1"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2016 Zeit, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-ms-2.1.3-MIT",
+      "fileName": "./ms/license.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2020 Vercel, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-negotiator-0.6.3-MIT",
+      "fileName": "./negotiator/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "553d4d20029a24e315b428a1a54a9e109eaa340f2e958a4f50a92362c2c4070b"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012-2014 Federico Romero\nCopyright (c) 2012-2014 Isaac Z. Schlueter\nCopyright (c) 2014-2015 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-ngx-bootstrap-12.0.0-MIT",
+      "fileName": "./ngx-bootstrap/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa37dd1f42a24976b3ae36729fc418f91055dd5a9545784ee847400ab202b24b"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2015-2020 Valor Software\nCopyright (c) 2015-2020 Dmitriy Shekhovtsov<valorkin@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-on-finished-2.4.1-MIT",
+      "fileName": "./on-finished/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8089bcc08845ec143e5761f4a101a65b8c792a0dedbfeeb90a15560c0b77f768"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2013 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-parseurl-1.3.3-MIT",
+      "fileName": "./parseurl/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "11d017c3b9f1ee3f44caf7203035f0461d5b57e0db8ce1bc03a9af34fa7d3f6b"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2014-2017 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-path-to-regexp-0.1.7-MIT",
+      "fileName": "./path-to-regexp/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2014 Blake Embrey (hello@blakeembrey.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-proxy-addr-2.0.7-MIT",
+      "fileName": "./proxy-addr/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7996721249a136fbcfc1c201bcb5f414f38a701d4a24f28abe65e16cfcce813"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2016 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-qs-6.11.0-BSD-3-Clause",
+      "fileName": "./qs/LICENSE.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e7dc37bf662d7f786efcb46c545615e70c1daf458a38385521c63cf6607cdfe1"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseInfoInFiles": [
+        "BSD-3-Clause"
+      ],
+      "noticeText": "BSD 3-Clause License\n\nCopyright (c) 2014, Nathan LaFreniere and other [contributors](https://github.com/ljharb/qs/graphs/contributors)\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    },
+    {
+      "SPDXID": "SPDXRef-range-parser-1.2.1-MIT",
+      "fileName": "./range-parser/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f655e6291356ec0de7a8f0e69f294961a2cea86678ec94588be1e6a492e278ab"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>\nCopyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-raw-body-2.5.2-MIT",
+      "fileName": "./raw-body/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37876d7de8bdf5e5b9b58a697ebc34044624e493e6f49eff5c938e5226dcac6b"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2013-2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2014-2022 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-rxjs-7.8.1-Apache-2.0",
+      "fileName": "./rxjs/LICENSE.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81c407ac717813b0e3795402960e04003c7bba8ba59b621624707028531c9ade"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseInfoInFiles": [
+        "Apache-2.0"
+      ],
+      "noticeText": "Apache License\n                         Version 2.0, January 2004\n                      http://www.apache.org/licenses/\n\n TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n 1. Definitions.\n\n    \"License\" shall mean the terms and conditions for use, reproduction,\n    and distribution as defined by Sections 1 through 9 of this document.\n\n    \"Licensor\" shall mean the copyright owner or entity authorized by\n    the copyright owner that is granting the License.\n\n    \"Legal Entity\" shall mean the union of the acting entity and all\n    other entities that control, are controlled by, or are under common\n    control with that entity. For the purposes of this definition,\n    \"control\" means (i) the power, direct or indirect, to cause the\n    direction or management of such entity, whether by contract or\n    otherwise, or (ii) ownership of fifty percent (50%) or more of the\n    outstanding shares, or (iii) beneficial ownership of such entity.\n\n    \"You\" (or \"Your\") shall mean an individual or Legal Entity\n    exercising permissions granted by this License.\n\n    \"Source\" form shall mean the preferred form for making modifications,\n    including but not limited to software source code, documentation\n    source, and configuration files.\n\n    \"Object\" form shall mean any form resulting from mechanical\n    transformation or translation of a Source form, including but\n    not limited to compiled object code, generated documentation,\n    and conversions to other media types.\n\n    \"Work\" shall mean the work of authorship, whether in Source or\n    Object form, made available under the License, as indicated by a\n    copyright notice that is included in or attached to the work\n    (an example is provided in the Appendix below).\n\n    \"Derivative Works\" shall mean any work, whether in Source or Object\n    form, that is based on (or derived from) the Work and for which the\n    editorial revisions, annotations, elaborations, or other modifications\n    represent, as a whole, an original work of authorship. For the purposes\n    of this License, Derivative Works shall not include works that remain\n    separable from, or merely link (or bind by name) to the interfaces of,\n    the Work and Derivative Works thereof.\n\n    \"Contribution\" shall mean any work of authorship, including\n    the original version of the Work and any modifications or additions\n    to that Work or Derivative Works thereof, that is intentionally\n    submitted to Licensor for inclusion in the Work by the copyright owner\n    or by an individual or Legal Entity authorized to submit on behalf of\n    the copyright owner. For the purposes of this definition, \"submitted\"\n    means any form of electronic, verbal, or written communication sent\n    to the Licensor or its representatives, including but not limited to\n    communication on electronic mailing lists, source code control systems,\n    and issue tracking systems that are managed by, or on behalf of, the\n    Licensor for the purpose of discussing and improving the Work, but\n    excluding communication that is conspicuously marked or otherwise\n    designated in writing by the copyright owner as \"Not a Contribution.\"\n\n    \"Contributor\" shall mean Licensor and any individual or Legal Entity\n    on behalf of whom a Contribution has been received by Licensor and\n    subsequently incorporated within the Work.\n\n 2. Grant of Copyright License. Subject to the terms and conditions of\n    this License, each Contributor hereby grants to You a perpetual,\n    worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n    copyright license to reproduce, prepare Derivative Works of,\n    publicly display, publicly perform, sublicense, and distribute the\n    Work and such Derivative Works in Source or Object form.\n\n 3. Grant of Patent License. Subject to the terms and conditions of\n    this License, each Contributor hereby grants to You a perpetual,\n    worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n    (except as stated in this section) patent license to make, have made,\n    use, offer to sell, sell, import, and otherwise transfer the Work,\n    where such license applies only to those patent claims licensable\n    by such Contributor that are necessarily infringed by their\n    Contribution(s) alone or by combination of their Contribution(s)\n    with the Work to which such Contribution(s) was submitted. If You\n    institute patent litigation against any entity (including a\n    cross-claim or counterclaim in a lawsuit) alleging that the Work\n    or a Contribution incorporated within the Work constitutes direct\n    or contributory patent infringement, then any patent licenses\n    granted to You under this License for that Work shall terminate\n    as of the date such litigation is filed.\n\n 4. Redistribution. You may reproduce and distribute copies of the\n    Work or Derivative Works thereof in any medium, with or without\n    modifications, and in Source or Object form, provided that You\n    meet the following conditions:\n\n    (a) You must give any other recipients of the Work or\n        Derivative Works a copy of this License; and\n\n    (b) You must cause any modified files to carry prominent notices\n        stating that You changed the files; and\n\n    (c) You must retain, in the Source form of any Derivative Works\n        that You distribute, all copyright, patent, trademark, and\n        attribution notices from the Source form of the Work,\n        excluding those notices that do not pertain to any part of\n        the Derivative Works; and\n\n    (d) If the Work includes a \"NOTICE\" text file as part of its\n        distribution, then any Derivative Works that You distribute must\n        include a readable copy of the attribution notices contained\n        within such NOTICE file, excluding those notices that do not\n        pertain to any part of the Derivative Works, in at least one\n        of the following places: within a NOTICE text file distributed\n        as part of the Derivative Works; within the Source form or\n        documentation, if provided along with the Derivative Works; or,\n        within a display generated by the Derivative Works, if and\n        wherever such third-party notices normally appear. The contents\n        of the NOTICE file are for informational purposes only and\n        do not modify the License. You may add Your own attribution\n        notices within Derivative Works that You distribute, alongside\n        or as an addendum to the NOTICE text from the Work, provided\n        that such additional attribution notices cannot be construed\n        as modifying the License.\n\n    You may add Your own copyright statement to Your modifications and\n    may provide additional or different license terms and conditions\n    for use, reproduction, or distribution of Your modifications, or\n    for any such Derivative Works as a whole, provided Your use,\n    reproduction, and distribution of the Work otherwise complies with\n    the conditions stated in this License.\n\n 5. Submission of Contributions. Unless You explicitly state otherwise,\n    any Contribution intentionally submitted for inclusion in the Work\n    by You to the Licensor shall be under the terms and conditions of\n    this License, without any additional terms or conditions.\n    Notwithstanding the above, nothing herein shall supersede or modify\n    the terms of any separate license agreement you may have executed\n    with Licensor regarding such Contributions.\n\n 6. Trademarks. This License does not grant permission to use the trade\n    names, trademarks, service marks, or product names of the Licensor,\n    except as required for reasonable and customary use in describing the\n    origin of the Work and reproducing the content of the NOTICE file.\n\n 7. Disclaimer of Warranty. Unless required by applicable law or\n    agreed to in writing, Licensor provides the Work (and each\n    Contributor provides its Contributions) on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n    implied, including, without limitation, any warranties or conditions\n    of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n    PARTICULAR PURPOSE. You are solely responsible for determining the\n    appropriateness of using or redistributing the Work and assume any\n    risks associated with Your exercise of permissions under this License.\n\n 8. Limitation of Liability. In no event and under no legal theory,\n    whether in tort (including negligence), contract, or otherwise,\n    unless required by applicable law (such as deliberate and grossly\n    negligent acts) or agreed to in writing, shall any Contributor be\n    liable to You for damages, including any direct, indirect, special,\n    incidental, or consequential damages of any character arising as a\n    result of this License or out of the use or inability to use the\n    Work (including but not limited to damages for loss of goodwill,\n    work stoppage, computer failure or malfunction, or any and all\n    other commercial damages or losses), even if such Contributor\n    has been advised of the possibility of such damages.\n\n 9. Accepting Warranty or Additional Liability. While redistributing\n    the Work or Derivative Works thereof, You may choose to offer,\n    and charge a fee for, acceptance of support, warranty, indemnity,\n    or other liability obligations and/or rights consistent with this\n    License. However, in accepting such obligations, You may act only\n    on Your own behalf and on Your sole responsibility, not on behalf\n    of any other Contributor, and only if You agree to indemnify,\n    defend, and hold each Contributor harmless for any liability\n    incurred by, or claims asserted against, such Contributor by reason\n    of your accepting any such warranty or additional liability.\n\n END OF TERMS AND CONDITIONS\n\n APPENDIX: How to apply the Apache License to your work.\n\n    To apply the Apache License to your work, attach the following\n    boilerplate notice, with the fields enclosed by brackets \"[]\"\n    replaced with your own identifying information. (Don't include\n    the brackets!)  The text should be enclosed in the appropriate\n    comment syntax for the file format. We also recommend that a\n    file or class name and description of purpose be included on the\n    same \"printed page\" as the copyright notice for easier\n    identification within third-party archives.\n\n Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License."
+    },
+    {
+      "SPDXID": "SPDXRef-safe-buffer-5.2.1-MIT",
+      "fileName": "./safe-buffer/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) Feross Aboukhadijeh\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-safer-buffer-2.1.2-MIT",
+      "fileName": "./safer-buffer/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "MIT License\n\nCopyright (c) 2018 Nikita Skovoroda <chalkerx@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-send-0.18.0-MIT",
+      "fileName": "./send/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2012 TJ Holowaychuk\nCopyright (c) 2014-2022 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-serve-static-1.15.0-MIT",
+      "fileName": "./serve-static/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63b9a188d7d43e64b0558b7115255045b9fe20a5fc3ff483421cb899e7f52bcb"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2010 Sencha Inc.\nCopyright (c) 2011 LearnBoost\nCopyright (c) 2011 TJ Holowaychuk\nCopyright (c) 2014-2016 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-setprototypeof-1.2.0-ISC",
+      "fileName": "./setprototypeof/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "76d6d1ea0c268da37dd3c961b4fcfb23dee8417fff9e8786d4d44c585b781b69"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "ISC",
+      "licenseInfoInFiles": [
+        "ISC"
+      ],
+      "noticeText": "Copyright (c) 2015, Wes Todd\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY\nSPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION\nOF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN\nCONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-statuses-2.0.1-MIT",
+      "fileName": "./statuses/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "512cfa4d5e7a7569c7ae4dd95241cb6ae2aaf648ef9ebd080c01bd24868d26e9"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2016 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-tslib-2.6.2-0BSD",
+      "fileName": "./tslib/LICENSE.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "0BSD",
+      "licenseInfoInFiles": [
+        "0BSD"
+      ],
+      "noticeText": "Copyright (c) Microsoft Corporation.\r\n\r\nPermission to use, copy, modify, and/or distribute this software for any\r\npurpose with or without fee is hereby granted.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\r\nREGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\r\nAND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\r\nINDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\r\nLOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\r\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\r\nPERFORMANCE OF THIS SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-type-is-1.6.18-MIT",
+      "fileName": "./type-is/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014 Jonathan Ong <me@jongleberry.com>\nCopyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-unpipe-1.0.0-MIT",
+      "fileName": "./unpipe/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1a526fbe8d8577f5a4b1c2821842b55b7c0e18862531c62ae4ce69c9b19b74b6"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-utils-merge-1.0.1-MIT",
+      "fileName": "./utils-merge/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6e7d699cdd1e4fa837ba7718ea49841aa67201b449ea8b3f9cf274be15974a64"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License (MIT)\n\nCopyright (c) 2013-2017 Jared Hanson\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-vary-1.1.2-MIT",
+      "fileName": "./vary/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "(The MIT License)\n\nCopyright (c) 2014-2017 Douglas Christopher Wilson\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    {
+      "SPDXID": "SPDXRef-zone.js-0.14.5-MIT",
+      "fileName": "./zone.js/LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "14d3aa17c8d166887c8ad4b39c3cea086bed0139260a2f71c033a3e9b0f41740"
+        }
+      ],
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseInfoInFiles": [
+        "MIT"
+      ],
+      "noticeText": "The MIT License\n\nCopyright (c) 2010-2024 Google LLC. https://angular.io/license\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-project"
+    },
+    {
+      "spdxElementId": "SPDXRef-project",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-project-JS",
+      "comment": "Module of the project"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-animations-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-common-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-compiler-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-forms-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-platform-browser-dynamic-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-platform-browser-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-router-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-bootstrap-5.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-express.js-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-ngx-bootstrap-12.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-project-JS",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-zone.js-0.14.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-animations-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-animations-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-common-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-common-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-common-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-compiler-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-compiler-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-core-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-core-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-core-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-zone.js-0.14.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-forms-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-common-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-forms-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-forms-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-platform-browser-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-forms-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-forms-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-common-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-compiler-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-platform-browser-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-animations-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-common-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-router-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-common-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-router-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-router-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-platform-browser-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-router-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-router-17.3.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-bootstrap-5.3.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@popperjs-core-2.11.8"
+    },
+    {
+      "spdxElementId": "SPDXRef-express.js-1.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-express-4.19.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-animations-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-common-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-core-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-@angular-forms-17.3.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-rxjs-7.8.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-zone.js-0.14.5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-animations-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-animations-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-common-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-common-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-compiler-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-compiler-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-core-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-core-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-forms-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-forms-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-dynamic-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-platform-browser-dynamic-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-platform-browser-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-platform-browser-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@angular-router-17.3.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-angular-router-17.3.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-@popperjs-core-2.11.8",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-popperjs-core-2.11.8-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-accepts-1.3.8",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-accepts-1.3.8-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-array-flatten-1.1.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-array-flatten-1.1.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-body-parser-1.20.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-body-parser-1.20.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-bootstrap-5.3.3",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-bootstrap-5.3.3-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-bytes-3.1.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-bytes-3.1.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-content-disposition-0.5.4",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-content-disposition-0.5.4-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-content-type-1.0.5",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-content-type-1.0.5-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-cookie-signature-1.0.6",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-cookie-signature-1.0.6-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-cookie-0.6.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-cookie-0.6.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-debug-2.6.9",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-debug-2.6.9-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-depd-2.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-depd-2.0.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-destroy-1.2.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-destroy-1.2.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-encodeurl-1.0.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-encodeurl-1.0.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-escape-html-1.0.3",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-escape-html-1.0.3-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-etag-1.8.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-etag-1.8.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-express.js-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-express.js-1.0.0-ISC",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-express-4.19.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-express-4.19.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-finalhandler-1.2.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-finalhandler-1.2.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-forwarded-0.2.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-forwarded-0.2.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-fresh-0.5.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-fresh-0.5.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-http-errors-2.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-http-errors-2.0.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-iconv-lite-0.4.24",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-iconv-lite-0.4.24-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-ipaddr.js-1.9.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ipaddr.js-1.9.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-merge-descriptors-1.0.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-merge-descriptors-1.0.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-methods-1.1.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-methods-1.1.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-mime-db-1.52.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-mime-db-1.52.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-mime-types-2.1.35",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-mime-types-2.1.35-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-mime-1.6.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-mime-1.6.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-ms-2.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ms-2.0.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-ms-2.1.3",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ms-2.1.3-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-negotiator-0.6.3",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-negotiator-0.6.3-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-ngx-bootstrap-12.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ngx-bootstrap-12.0.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-on-finished-2.4.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-on-finished-2.4.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-parseurl-1.3.3",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-parseurl-1.3.3-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-path-to-regexp-0.1.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-path-to-regexp-0.1.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-proxy-addr-2.0.7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-proxy-addr-2.0.7-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-qs-6.11.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-qs-6.11.0-BSD-3-Clause",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-range-parser-1.2.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-range-parser-1.2.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-raw-body-2.5.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-raw-body-2.5.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-rxjs-7.8.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-rxjs-7.8.1-Apache-2.0",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-safe-buffer-5.2.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-safe-buffer-5.2.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-safer-buffer-2.1.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-safer-buffer-2.1.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-send-0.18.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-send-0.18.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-serve-static-1.15.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-serve-static-1.15.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-setprototypeof-1.2.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-setprototypeof-1.2.0-ISC",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-statuses-2.0.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-statuses-2.0.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-tslib-2.6.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-tslib-2.6.2-0BSD",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-type-is-1.6.18",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-type-is-1.6.18-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-unpipe-1.0.0",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-unpipe-1.0.0-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-utils-merge-1.0.1",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-utils-merge-1.0.1-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-vary-1.1.2",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-vary-1.1.2-MIT",
+      "comment": "License mention"
+    },
+    {
+      "spdxElementId": "SPDXRef-zone.js-0.14.5",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-zone.js-0.14.5-MIT",
+      "comment": "License mention"
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-PROPRIETARY-LICENSE",
+      "extractedText": "Qodana didn't find a license in your project, that's why the project license is considered to be proprietary. Proprietary license rules are applied for dependency license compatibility checks."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/schemastore/schemastore/master/src/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "QDJVM",
+          "fullName": "Qodana for JVM",
+          "version": "241.17569.155",
+          "rules": [],
+          "taxa": [],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        },
+        "extensions": []
+      },
+      "invocations": [
+        {
+          "startTimeUtc": "2024-06-03T20:45:59.940208357Z",
+          "exitCode": 0,
+          "executionSuccessful": true
+        }
+      ],
+      "language": "en-US",
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/LeafOfBread/webproject.git",
+          "revisionId": "48e9bf45955cdf2725599f5dd9ea6e7691f34bd8",
+          "branch": "master",
+          "properties": {
+            "repoUrl": "https://github.com/LeafOfBread/webproject.git",
+            "lastAuthorName": "Daniel Gebhart",
+            "vcsType": "Git",
+            "lastAuthorEmail": "daniel.gebhart@hotmail.com"
+          }
+        }
+      ],
+      "results": [],
+      "automationDetails": {
+        "id": "project/qodana/2024-06-03",
+        "guid": "3da1d3e5-2469-4114-bbb6-1f34f1532a71",
+        "properties": {
+          "jobUrl": ""
+        }
+      },
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "properties": {
+        "configProfile": "absent",
+        "deviceId": "200820300000000-a954-bbd2-d9c6-ad2ea3189574",
+        "qodanaNewResultSummary": {
+          "total": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+2024-06-03 20:13:04,756 [      3]   INFO - #c.i.i.StartupUtil - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2024-06-03 20:13:04,835 [     82]   INFO - #c.i.i.StartupUtil - JNA library (64-bit) loaded in 20 ms
+2024-06-03 20:13:04,846 [     93]   INFO - #c.i.i.p.PluginManager - Ignoring cached broken plugins file from an earlier IDE build (IC-222.4437)
+2024-06-03 20:13:04,882 [    129]   INFO - #c.i.i.StartupUtil - IDE: Qodana Community for JVM (build #QDJVMC-222.4437.162, 26 Oct 2022 04:04)
+2024-06-03 20:13:04,883 [    130]   INFO - #c.i.i.StartupUtil - OS: Linux (5.15.146.1-microsoft-standard-wsl2, amd64)
+2024-06-03 20:13:04,908 [    155]   INFO - #c.i.i.StartupUtil - JRE: 11.0.12+7-b1729.1 (JetBrains s.r.o.)
+2024-06-03 20:13:04,909 [    156]   INFO - #c.i.i.StartupUtil - JVM: 11.0.12+7-b1729.1 (OpenJDK 64-Bit Server VM)
+2024-06-03 20:13:04,914 [    161]   INFO - #c.i.i.StartupUtil - PID: 17
+2024-06-03 20:13:04,923 [    170]   INFO - #c.i.i.StartupUtil - WM detected: null, desktop: -
+2024-06-03 20:13:04,927 [    174]   INFO - #c.i.i.StartupUtil - JVM options: [-Dfus.internal.reduce.initial.delay=true, -Didea.application.info.value=/opt/idea/bin/QodanaAppInfo.xml, -Didea.config.path=/root/.config/idea, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-a954-bbd2-d9c6-ad2ea3189574, -Didea.headless.statistics.max.files.to.send=5000, -Didea.headless.statistics.salt=6ba1c92c7ea959ff791b8de4d3173f77, -Didea.log.config.file=/data/log.xml, -Didea.log.path=/data/results/log, -Didea.parent.prefix=Idea, -Didea.platform.prefix=Qodana, -Didea.system.path=/data/cache/idea/222, -Dinspect.save.project.settings=true, -Djava.awt.headless=true, -Djava.net.useSystemProxies=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dqodana.automation.guid=41f9275d-4490-4dbe-a130-e62062c620eb, -Dsun.io.useCanonCaches=false, -Dsun.tools.attach.tmp.only=true, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:ErrorFile=/data/results/log/java_error_in_IDEA.log, -XX:HeapDumpPath=/data/results/log/OOMheapdump.hprof, -XX:MaxJavaStackTraceDepth=10000, -XX:MaxRAMPercentage=70, -XX:ReservedCodeCacheSize=350m, -XX:SoftRefLRUPolicyMSPerMB=5, -Xlog:gc*:/data/results/log/gc.log, -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005,quiet=y, -ea, -Djb.vmOptionsFile=/opt/idea/bin/idea64.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.strict.classpath=true, -Didea.vendor.name=JetBrains, -Didea.paths.selector=IdeaIC2022.2, -Didea.jre.check=true, -Dsplash=true, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2024-06-03 20:13:04,927 [    174]   INFO - #c.i.i.StartupUtil - args: [inspect, qodana, --stub-profile, /data/profile.xml, /data/project, /data/results]
+2024-06-03 20:13:04,928 [    175]   INFO - #c.i.i.StartupUtil - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2024-06-03 20:13:04,929 [    176]   INFO - #c.i.i.StartupUtil - boot library path: /usr/lib/jvm/jbr/lib
+2024-06-03 20:13:04,948 [    195]   INFO - #c.i.i.StartupUtil - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/root/.config/idea
+  idea.system.path=/data/cache/idea/222
+  idea.plugins.path=/root/.config/idea/plugins
+  idea.log.path=/data/results/log
+2024-06-03 20:13:04,960 [    207]   INFO - #c.i.i.StartupUtil - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3c1de321[Running, parallelism = 8, size = 4, active = 2, running = 2, steals = 6, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@d095987
+2024-06-03 20:13:05,014 [    261]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4437, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
+2024-06-03 20:13:05,015 [    262]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=/opt/idea/plugins/Groovy, version=222.4437, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
+2024-06-03 20:13:05,084 [    331]   INFO - #c.i.i.p.PluginManager - Module kotlin.copyright is not enabled because dependency com.intellij.copyright is not available
+Module kotlin.features-trainer is not enabled because dependency training is not available
+Module kotlin.ml-completion is not enabled because dependency com.intellij.completion.ml.ranking is not available
+Module kotlin.grazie is not enabled because dependency tanvd.grazi is not available
+Module kotlin.coverage is not enabled because dependency Coverage is not available
+Module kotlin.jvm-debugger.sequence is not enabled because dependency org.jetbrains.debugger.streams is not available
+Module kotlin.jvm-decompiler is not enabled because dependency org.jetbrains.java.decompiler is not available
+Module kotlin-ultimate.javascript.nodeJs is not enabled because dependency NodeJS is not available
+Module kotlin-ultimate.javascript.debugger is not enabled because dependency JavaScriptDebugger is not available
+Module intellij.java.ide.customization/training is not enabled because dependency training is not available
+Module intellij.platform.images.copyright is not enabled because dependency com.intellij.platform.images is not available
+Module intellij.notebooks.visualization is not enabled because dependency com.intellij.platform.images is not available
+Module intellij.groovy/byte-code-viewer is not enabled because dependency ByteCodeViewer is not available
+Module intellij.vcs.git/terminal is not enabled because dependency org.jetbrains.plugins.terminal is not available
+Module intellij.java.devkit is not enabled because dependency intellij.dev.psiViewer is not available
+Module intellij.devkit.images is not enabled because dependency com.intellij.platform.images is not available
+Module kotlin-ultimate.common-for-kotlin is not enabled because dependency com.intellij.nativeDebug is not available
+Module kotlin-ultimate.ultimate-native is not enabled because dependency kotlin-ultimate.common-for-kotlin is not available
+2024-06-03 20:13:05,096 [    343]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Groovy (222.4437), XPathView + XSLT (222.4437), Static Analysis Project (222.4437), Gradle-Java (222.4437), JUnit (222.4437), Java Internationalization (222.4437), IntelliLang (222.4437), Java (222.4437), Maven (222.4437), JetBrains maven model api classes (222.4437), Java IDE Customization (222.4437), Gradle (222.4437), TestNG (222.4437), Subversion (222.4437), Ant (222.4437), EditorConfig (222.4437), Lombok (222.4437), Properties (222.4437), JetBrains Repository Search (222.4437), UI Designer (222.4437), Mercurial (222.4437), Eclipse Interoperability (222.4437), Configuration Script (222.4437), Kotlin (222-1.7.10-release-334-IJ4437), IDEA CORE (222.4437.162), Plugin DevKit (222.4437), Git (222.4437)
+2024-06-03 20:13:05,136 [    383]   INFO - #c.i.c.InspectionApplication - Command line arguments: [inspect, qodana, --stub-profile, /data/profile.xml, /data/project, /data/results]
+2024-06-03 20:13:05,167 [    414]   INFO - STDOUT - By using this Docker image, you agree to
+2024-06-03 20:13:05,169 [    416]   INFO - STDOUT - - JetBrains Privacy Policy (https://jb.gg/jetbrains-privacy-policy)
+2024-06-03 20:13:05,169 [    416]   INFO - STDOUT - - Qodana Community Linters Agreement (https://jb.gg/qodana-community-linters)
+2024-06-03 20:13:05,229 [    476]   INFO - #c.i.u.i.FilePageCache - lower=100; upper=500; buffer=10; max=12496
+2024-06-03 20:13:05,276 [    523]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2024-06-03 20:13:05,356 [    603]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/root/.m2/repository}
+2024-06-03 20:13:05,399 [    646]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI)
+2024-06-03 20:13:05,463 [    710]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 9 ms to load free records and inverted name index
+2024-06-03 20:13:05,568 [    815]   INFO - STDOUT -                                         
+2024-06-03 20:13:05,569 [    816]   INFO - STDOUT -           _              _       
+2024-06-03 20:13:05,569 [    816]   INFO - STDOUT -          /\ \           /\ \        Qodana Community for JVM 2022.2
+2024-06-03 20:13:05,570 [    817]   INFO - STDOUT -         /  \ \         /  \ \       Documentation
+2024-06-03 20:13:05,570 [    817]   INFO - STDOUT -        / /\ \ \       / /\ \ \      https://jb.gg/qodana-docs
+2024-06-03 20:13:05,572 [    819]   INFO - STDOUT -       / / /\ \ \     / / /\ \ \     Contact us at
+2024-06-03 20:13:05,573 [    820]   INFO - STDOUT -      / / /  \ \_\   / / /  \ \_\    qodana-support@jetbrains.com
+2024-06-03 20:13:05,574 [    821]   INFO - STDOUT -     / / / _ / / /  / / /   / / /    Or via our issue tracker
+2024-06-03 20:13:05,575 [    822]   INFO - STDOUT -    / / / /\ \/ /  / / /   / / /     https://jb.gg/qodana-issue
+2024-06-03 20:13:05,575 [    822]   INFO - STDOUT -   / / /__\ \ \/  / / /___/ / /      Or share your feedback at our forum
+2024-06-03 20:13:05,576 [    823]   INFO - STDOUT -  / / /____\ \ \ / / /____\/ /       https://jb.gg/qodana-forum
+2024-06-03 20:13:05,576 [    823]   INFO - STDOUT -  \/________\_\/ \/_________/     
+2024-06-03 20:13:05,577 [    824]   INFO - STDOUT -                                                    
+2024-06-03 20:13:05,577 [    824]   INFO - STDOUT -                                         
+2024-06-03 20:13:05,585 [    832]   INFO - STDOUT - Starting up Qodana Community for JVM 2022.2 (build QDJVMC-222.4437.162) ...done.
+2024-06-03 20:13:05,620 [    867]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project opening stage ...
+2024-06-03 20:13:05,620 [    867]   INFO - STDOUT - Preparing for the Project opening stage ...
+2024-06-03 20:13:05,656 [    903]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2024-06-03 20:13:05,705 [    952]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2024-06-03 20:13:05,748 [    995]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'unknown.sdk.auto' has changed to 'false'
+2024-06-03 20:13:05,749 [    996]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'external.system.auto.import.disabled' has changed to 'true'
+2024-06-03 20:13:05,750 [    997]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'android.gradle.project.startup.activity.disabled' has changed to 'true'
+2024-06-03 20:13:05,750 [    997]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'android.sdk.local.properties.update.disabled' has changed to 'true'
+2024-06-03 20:13:05,754 [   1001]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'external.system.auto.import.disabled' has changed to 'true'
+2024-06-03 20:13:05,755 [   1002]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'maven.create.dummy.module.on.first.import' has changed to 'false'
+2024-06-03 20:13:06,235 [   1482]   INFO - #c.i.p.i.a.w.LegacyBridgeArtifactManagerRedefiner - Using workspace model to open project
+2024-06-03 20:13:06,332 [   1579]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[JobScheduler FJ pool 0/8,4,main]
+2024-06-03 20:13:06,406 [   1653]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2024-06-03 20:13:06,529 [   1776]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:java.null.method.argument(v = 4097),PluginIdDependenciesIndex(v = 5),FrameworkDetectionIndex(v = 65536),LombokConfigIndex(v = 11),org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex(v = 2),Trigram.Index(v = 4099),TodoIndex(v = 4109),ant-imports(v = 5),Stubs(v = 46),com.intellij.uiDesigner.FormClassIndex(v = 0),org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex(v = 1),java.fun.expression(v = 4102),org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex(v = 1),json.file.root.values(v = 5),fileIncludes(v = 6),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),DomFileIndex(v = 0),XmlNamespaces(v = 8),IdIndex(v = 4118),RelaxSymbolIndex(v = 0),org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex(v = 4),java.binary.plus.expression(v = 4100),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 1),bytecodeAnalysis(v = 4107),FilenameIndex(v = 258),SchemaTypeInheritance(v = 2),devkit.ExtensionPointClassIndex(v = 1),java.source.module.name(v = 4),PluginIdModuleIndex(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex(v = 4),IdeaPluginRegistrationIndex(v = 8),filetypes(v = 258),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),devkit.ExtensionPointIndex(v = 0),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),XsltSymbolIndex(v = 0),XmlTagNames(v = 1),java.auto.module.name(v = 6),html5.custom.attributes.index(v = 1),editorconfig.index.name(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),xmlProperties(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 1)
+2024-06-03 20:13:06,536 [   1783]   INFO - c.i.u.i.FileBasedIndexDataInitialization - Index data initialization done: 1100 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, editorconfig.index.name, xmlProperties, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.intellij.uiDesigner.FormClassIndex, XsltSymbolIndex, LombokConfigIndex, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, ant-imports].
+2024-06-03 20:13:06,760 [   2007]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),jvm.static.member.type(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),gr.class.super(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex(v = 2),dom.namespaceKey(v = 1),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),jvm.static.member.name(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex(v = 3),gr.script.class(v = 5),dom.elementClass(v = 0),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 2),java.annotations(v = 2),gr.class.fqn(v = 4),org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex(v = 2),gr.method.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex(v = 2),java.method.parameter.types(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 2),gr.annot.method.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),java.class.shortname(v = 4),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),gr.annot.members(v = 5),kotlin.primeIndexKey(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex(v = 2),java.anonymous.baseref(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),gr.anonymous.class(v = 6),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 2),java.method.name(v = 2),java.class.fqn(v = 1),java.field.name(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 2),gr.script.fqn(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex(v = 2),java.class.extlist(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 2),java.module.name(v = 4),properties.index(v = 2),gr.field.name(v = 5)
+2024-06-03 20:13:06,763 [   2010]   INFO - c.i.p.s.StubIndexImpl$StubIndexInitialization - Index data initialization done: 226 ms. Initialized stub indexes: {org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, java.class.shortname, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, java.method.name, gr.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, java.method.parameter.types, dom.elementClass, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, java.field.name, gr.method.name, jvm.static.member.type, dom.namespaceKey, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, kotlin.primeIndexKey, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, gr.class.super, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, jvm.static.member.name, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, gr.script.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, gr.anonymous.class, java.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, gr.annot.method.name}.
+2024-06-03 20:13:06,790 [   2037]   INFO - STDOUT - Opening project...Preparing workspace... 50%
+2024-06-03 20:13:06,906 [   2153]   INFO - #c.i.u.i.UnindexedFilesUpdater - Started scanning for indexing of project. Reason: On project open
+2024-06-03 20:13:06,915 [   2162]   INFO - #c.i.d.JitWatcher - JIT compilation state checking enabled
+2024-06-03 20:13:06,931 [   2178]   INFO - #c.i.u.i.UnindexedFilesUpdater - Performing delayed pushing properties tasks for project took 2ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:13:06,964 [   2211]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning of project uses 8 scanning threads
+2024-06-03 20:13:35,649 [  30896]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 30s
+2024-06-03 20:13:35,651 [  30898]   INFO - STDOUT - Keep running Project opening ... so far 30s
+2024-06-03 20:14:05,652 [  60899]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 1m
+2024-06-03 20:14:05,654 [  60901]   INFO - STDOUT - Keep running Project opening ... so far 1m
+2024-06-03 20:14:35,654 [  90901]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 1m 30s
+2024-06-03 20:14:35,655 [  90902]   INFO - STDOUT - Keep running Project opening ... so far 1m 30s
+2024-06-03 20:15:05,655 [ 120902]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 2m
+2024-06-03 20:15:05,656 [ 120903]   INFO - STDOUT - Keep running Project opening ... so far 2m
+2024-06-03 20:15:35,658 [ 150905]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 2m 30s
+2024-06-03 20:15:35,660 [ 150907]   INFO - STDOUT - Keep running Project opening ... so far 2m 30s
+2024-06-03 20:16:05,660 [ 180907]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 3m
+2024-06-03 20:16:05,661 [ 180908]   INFO - STDOUT - Keep running Project opening ... so far 3m
+2024-06-03 20:16:35,661 [ 210908]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 3m 30s
+2024-06-03 20:16:35,662 [ 210909]   INFO - STDOUT - Keep running Project opening ... so far 3m 30s
+2024-06-03 20:17:05,662 [ 240909]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 4m
+2024-06-03 20:17:05,664 [ 240911]   INFO - STDOUT - Keep running Project opening ... so far 4m
+2024-06-03 20:17:35,663 [ 270910]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 4m 30s
+2024-06-03 20:17:35,664 [ 270911]   INFO - STDOUT - Keep running Project opening ... so far 4m 30s
+2024-06-03 20:18:05,664 [ 300911]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 5m
+2024-06-03 20:18:05,664 [ 300911]   INFO - STDOUT - Keep running Project opening ... so far 5m
+2024-06-03 20:18:35,664 [ 330911]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 5m 30s
+2024-06-03 20:18:35,665 [ 330912]   INFO - STDOUT - Keep running Project opening ... so far 5m 30s
+2024-06-03 20:19:05,664 [ 360911]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 6m
+2024-06-03 20:19:05,665 [ 360912]   INFO - STDOUT - Keep running Project opening ... so far 6m
+2024-06-03 20:19:34,161 [ 389408]   INFO - #c.i.u.i.UnindexedFilesUpdater - Scanning completed for project. Number of scanned files: 25209; Number of files for indexing: 25074 took 387229ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:19:35,666 [ 390913]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 6m 30s
+2024-06-03 20:19:35,667 [ 390914]   INFO - STDOUT - Keep running Project opening ... so far 6m 30s
+2024-06-03 20:20:05,667 [ 420914]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 7m
+2024-06-03 20:20:05,668 [ 420915]   INFO - STDOUT - Keep running Project opening ... so far 7m
+2024-06-03 20:20:35,667 [ 450914]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 7m 30s
+2024-06-03 20:20:35,667 [ 450914]   INFO - STDOUT - Keep running Project opening ... so far 7m 30s
+2024-06-03 20:20:57,172 [ 472419]   INFO - #c.i.u.i.UnindexedFilesUpdater - Use 4 indexing threads for indexing of project
+2024-06-03 20:20:57,485 [ 472732]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,487 [ 472734]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,527 [ 472774]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,532 [ 472779]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,538 [ 472785]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,539 [ 472786]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,539 [ 472786]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:20:57,540 [ 472787]   WARN - #o.e.l.s.p.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:21:05,667 [ 480914]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 8m
+2024-06-03 20:21:05,668 [ 480915]   INFO - STDOUT - Keep running Project opening ... so far 8m
+2024-06-03 20:21:35,667 [ 510914]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 8m 30s
+2024-06-03 20:21:35,668 [ 510915]   INFO - STDOUT - Keep running Project opening ... so far 8m 30s
+2024-06-03 20:22:05,667 [ 540914]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 9m
+2024-06-03 20:22:05,667 [ 540914]   INFO - STDOUT - Keep running Project opening ... so far 9m
+2024-06-03 20:22:28,401 [ 563648]   INFO - #c.i.u.i.UnindexedFilesUpdater - Finished for project. Unindexed files update took 91234ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:22:28,419 [ 563666]   INFO - #c.i.c.InspectionApplicationBase - Waiting for startup activities
+2024-06-03 20:22:28,512 [ 563759]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [/data/project]
+2024-06-03 20:22:28,514 [ 563761]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 1)
+2024-06-03 20:22:28,577 [ 563824]   INFO - #g.c.GitHandler - [.] git version
+2024-06-03 20:22:28,610 [ 563857]   INFO - #g.c.GitHandler - git version 2.25.1
+2024-06-03 20:22:28,626 [ 563873]   INFO - #g.c.GitExecutableManager - Git version for /usr/bin/git: 2.25.1.0 (UNIX)
+2024-06-03 20:22:29,560 [ 564807]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
+2024-06-03 20:22:29,568 [ 564815]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
+2024-06-03 20:22:33,688 [ 568935]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2024-06-03 20:22:33,959 [ 569206]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 5544ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:22:34,087 [ 569334]   INFO - #c.i.i.s.i.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening.
+2024-06-03 20:22:34,286 [ 569533]   INFO - #c.i.c.InspectionApplicationBase - Startup activities finished
+2024-06-03 20:22:35,668 [ 570915]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 9m 30s
+2024-06-03 20:22:35,668 [ 570915]   INFO - STDOUT - Keep running Project opening ... so far 9m 30s
+2024-06-03 20:22:39,048 [ 574295]   INFO - #c.i.d.MemorySizeConfigurator - Memory size configurator skipped: Unable to determine current -Xmx. VM options file is /opt/idea/bin/idea64.vmoptions
+2024-06-03 20:22:39,108 [ 574355]   INFO - #c.i.c.b.IsUpToDateCheckStartupActivity - suitable consumer is not found
+2024-06-03 20:22:46,470 [ 581717]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 8
+2024-06-03 20:23:05,668 [ 600915]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project opening ... so far 10m
+2024-06-03 20:23:05,670 [ 600917]   INFO - STDOUT - Keep running Project opening ... so far 10m
+2024-06-03 20:23:32,382 [ 627629]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project project
+2024-06-03 20:23:32,589 [ 627836]   INFO - STDOUT - done.
+2024-06-03 20:23:32,596 [ 627843]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project opening stage completed in 10m 26s
+2024-06-03 20:23:32,597 [ 627844]   INFO - STDOUT - The Project opening stage completed in 10m 26s
+2024-06-03 20:23:32,785 [ 628032]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - Used scope: Project Files
+2024-06-03 20:23:32,786 [ 628033]   INFO - STDOUT - Initializing project...Inspecting with the 'qodana.starter' profile
+2024-06-03 20:23:32,787 [ 628034]   INFO - STDOUT - Loaded the 'qodana.sanity' shared project profile
+2024-06-03 20:23:34,938 [ 630185]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - The 'qodana.sanity' profile is configured for sanity checks
+2024-06-03 20:23:37,132 [ 632379]   INFO - #o.j.p.s.i.r.QodanaInspectionApplication - The 'qodana.recommended' profile is configured for promo checks
+2024-06-03 20:23:39,098 [ 634345]   INFO - STDOUT - Using 'default' script as qodana run scenario
+2024-06-03 20:23:40,958 [ 636205]   INFO - #o.j.p.s.i.r.AsyncInspectionToolResultWriter - Async result writer started
+2024-06-03 20:23:41,229 [ 636476]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project configuration stage ...
+2024-06-03 20:23:41,229 [ 636476]   INFO - STDOUT - Preparing for the Project configuration stage ...
+2024-06-03 20:23:41,254 [ 636501]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project configuration stage completed in 24ms
+2024-06-03 20:23:41,254 [ 636501]   INFO - STDOUT - The Project configuration stage completed in 24ms
+2024-06-03 20:23:41,428 [ 636675]   INFO - #c.i.c.e.GlobalJavaInspectionContextImpl - No source roots detected for module 'project'
+2024-06-03 20:23:41,429 [ 636676]   INFO - #o.j.p.s.i.r.ConsoleLog - Preparing for the Project analysis stage ...
+2024-06-03 20:23:41,430 [ 636677]   INFO - STDOUT - Preparing for the Project analysis stage ...
+2024-06-03 20:23:41,783 [ 637030]   INFO - #c.i.a.AnalysisScope - Scanning scope took 93 ms
+2024-06-03 20:23:41,795 [ 637042]   INFO - #c.i.c.e.GlobalJavaInspectionContextImpl - Processing external usages finished in 0 ms
+2024-06-03 20:23:43,340 [ 638587]   INFO - #c.i.x.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/idea/lib/app.jar!/resources/html5-schema/html5.rnc
+2024-06-03 20:23:44,504 [ 639751]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer
+2024-06-03 20:23:44,843 [ 640090]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project project
+2024-06-03 20:23:44,867 [ 640114]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project project
+2024-06-03 20:23:45,772 [ 641019]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project project
+2024-06-03 20:23:46,167 [ 641414]   INFO - STDOUT - Analyzing code 1%
+2024-06-03 20:23:48,042 [ 643289]   INFO - STDOUT - Analyzing code 2%
+2024-06-03 20:23:49,799 [ 645046]   INFO - STDOUT - Analyzing code 3%
+2024-06-03 20:23:49,805 [ 645052]   INFO - STDOUT - Analyzing code 3%
+2024-06-03 20:23:49,812 [ 645059]   INFO - STDOUT - Analyzing code 3%
+2024-06-03 20:23:51,221 [ 646468]   INFO - STDOUT - Analyzing code 4%
+2024-06-03 20:23:52,471 [ 647718]   INFO - STDOUT - Analyzing code 5%
+2024-06-03 20:23:52,472 [ 647719]   INFO - STDOUT - Analyzing code 5%
+2024-06-03 20:23:53,294 [ 648541]   INFO - STDOUT - Analyzing code 6%
+2024-06-03 20:23:53,298 [ 648545]   INFO - STDOUT - Analyzing code 6%
+2024-06-03 20:23:54,142 [ 649389]   INFO - STDOUT - Analyzing code 7%
+2024-06-03 20:23:55,392 [ 650639]   INFO - STDOUT - Analyzing code 8%
+2024-06-03 20:23:56,745 [ 651992]   INFO - STDOUT - Analyzing code 9%
+2024-06-03 20:23:58,014 [ 653261]   INFO - STDOUT - Analyzing code 10%
+2024-06-03 20:23:59,248 [ 654495]   INFO - STDOUT - Analyzing code 11%
+2024-06-03 20:24:00,446 [ 655693]   INFO - STDOUT - Analyzing code 12%
+2024-06-03 20:24:00,447 [ 655694]   INFO - STDOUT - Analyzing code 12%
+2024-06-03 20:24:01,663 [ 656910]   INFO - STDOUT - Analyzing code 13%
+2024-06-03 20:24:02,835 [ 658082]   INFO - STDOUT - Analyzing code 14%
+2024-06-03 20:24:02,836 [ 658083]   INFO - STDOUT - Analyzing code 14%
+2024-06-03 20:24:04,313 [ 659560]   INFO - STDOUT - Analyzing code 15%
+2024-06-03 20:24:05,642 [ 660889]   INFO - STDOUT - Analyzing code 16%
+2024-06-03 20:24:07,101 [ 662348]   INFO - STDOUT - Analyzing code 17%
+2024-06-03 20:24:08,358 [ 663605]   INFO - STDOUT - Analyzing code 18%
+2024-06-03 20:24:08,359 [ 663606]   INFO - STDOUT - Analyzing code 18%
+2024-06-03 20:24:09,917 [ 665164]   INFO - STDOUT - Analyzing code 19%
+2024-06-03 20:24:09,923 [ 665170]   INFO - STDOUT - Analyzing code 19%
+2024-06-03 20:24:09,924 [ 665171]   INFO - STDOUT - Analyzing code 19%
+2024-06-03 20:24:09,927 [ 665174]   INFO - STDOUT - Analyzing code 19%
+2024-06-03 20:24:11,295 [ 666542]   INFO - STDOUT - Analyzing code 20%
+2024-06-03 20:24:11,430 [ 666677]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project analysis ... so far 30s
+2024-06-03 20:24:11,431 [ 666678]   INFO - STDOUT - Keep running Project analysis ... so far 30s
+2024-06-03 20:24:12,468 [ 667715]   INFO - STDOUT - Analyzing code 21%
+2024-06-03 20:24:13,700 [ 668947]   INFO - STDOUT - Analyzing code 22%
+2024-06-03 20:24:14,642 [ 669889]   INFO - STDOUT - Analyzing code 23%
+2024-06-03 20:24:14,645 [ 669892]   INFO - STDOUT - Analyzing code 23%
+2024-06-03 20:24:15,528 [ 670775]   INFO - STDOUT - Analyzing code 24%
+2024-06-03 20:24:16,701 [ 671948]   INFO - STDOUT - Analyzing code 25%
+2024-06-03 20:24:17,548 [ 672795]   INFO - STDOUT - Analyzing code 26%
+2024-06-03 20:24:18,630 [ 673877]   INFO - STDOUT - Analyzing code 27%
+2024-06-03 20:24:19,642 [ 674889]   INFO - STDOUT - Analyzing code 28%
+2024-06-03 20:24:20,733 [ 675980]   INFO - STDOUT - Analyzing code 29%
+2024-06-03 20:24:22,071 [ 677318]   INFO - STDOUT - Analyzing code 30%
+2024-06-03 20:24:23,005 [ 678252]   INFO - STDOUT - Analyzing code 31%
+2024-06-03 20:24:24,094 [ 679341]   INFO - STDOUT - Analyzing code 32%
+2024-06-03 20:24:25,029 [ 680276]   INFO - STDOUT - Analyzing code 33%
+2024-06-03 20:24:25,969 [ 681216]   INFO - STDOUT - Analyzing code 34%
+2024-06-03 20:24:27,059 [ 682306]   INFO - STDOUT - Analyzing code 35%
+2024-06-03 20:24:28,234 [ 683481]   INFO - STDOUT - Analyzing code 36%
+2024-06-03 20:24:29,645 [ 684892]   INFO - STDOUT - Analyzing code 37%
+2024-06-03 20:24:31,495 [ 686742]   INFO - STDOUT - Analyzing code 38%
+2024-06-03 20:24:32,737 [ 687984]   INFO - STDOUT - Analyzing code 39%
+2024-06-03 20:24:33,696 [ 688943]   INFO - STDOUT - Analyzing code 40%
+2024-06-03 20:24:34,591 [ 689838]   INFO - STDOUT - Analyzing code 41%
+2024-06-03 20:24:35,558 [ 690805]   INFO - STDOUT - Analyzing code 42%
+2024-06-03 20:24:36,583 [ 691830]   INFO - STDOUT - Analyzing code 43%
+2024-06-03 20:24:37,776 [ 693023]   INFO - STDOUT - Analyzing code 44%
+2024-06-03 20:24:38,859 [ 694106]   INFO - STDOUT - Analyzing code 45%
+2024-06-03 20:24:39,985 [ 695232]   INFO - STDOUT - Analyzing code 46%
+2024-06-03 20:24:41,095 [ 696342]   INFO - STDOUT - Analyzing code 47%
+2024-06-03 20:24:41,098 [ 696345]   INFO - STDOUT - Analyzing code 47%
+2024-06-03 20:24:41,430 [ 696677]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project analysis ... so far 1m
+2024-06-03 20:24:41,431 [ 696678]   INFO - STDOUT - Keep running Project analysis ... so far 1m
+2024-06-03 20:24:42,167 [ 697414]   INFO - STDOUT - Analyzing code 48%
+2024-06-03 20:24:43,286 [ 698533]   INFO - STDOUT - Analyzing code 49%
+2024-06-03 20:24:44,729 [ 699976]   INFO - STDOUT - Analyzing code 50%
+2024-06-03 20:24:46,018 [ 701265]   INFO - STDOUT - Analyzing code 51%
+2024-06-03 20:24:47,287 [ 702534]   INFO - STDOUT - Analyzing code 52%
+2024-06-03 20:24:48,189 [ 703436]   INFO - STDOUT - Analyzing code 53%
+2024-06-03 20:24:49,119 [ 704366]   INFO - STDOUT - Analyzing code 54%
+2024-06-03 20:24:49,120 [ 704367]   INFO - STDOUT - Analyzing code 54%
+2024-06-03 20:24:50,130 [ 705377]   INFO - STDOUT - Analyzing code 55%
+2024-06-03 20:24:51,171 [ 706418]   INFO - STDOUT - Analyzing code 56%
+2024-06-03 20:24:52,263 [ 707510]   INFO - STDOUT - Analyzing code 57%
+2024-06-03 20:24:52,881 [ 708128]   INFO - #c.i.o.v.n.p.PersistentFSContentAccessor - Contents:16384 of 130571734, reuses:2435 of 7816693 for 287
+2024-06-03 20:24:53,343 [ 708590]   INFO - STDOUT - Analyzing code 58%
+2024-06-03 20:24:54,139 [ 709386]   INFO - STDOUT - Analyzing code 59%
+2024-06-03 20:24:54,895 [ 710142]   INFO - STDOUT - Analyzing code 60%
+2024-06-03 20:24:55,918 [ 711165]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:55,940 [ 711187]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:55,941 [ 711188]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:55,947 [ 711194]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:55,948 [ 711195]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:55,948 [ 711195]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:55,964 [ 711211]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:24:56,944 [ 712191]   INFO - STDOUT - Analyzing code 62%
+2024-06-03 20:24:59,672 [ 714919]   INFO - STDOUT - Analyzing code 63%
+2024-06-03 20:25:00,377 [ 715624]   INFO - STDOUT - Analyzing code 64%
+2024-06-03 20:25:00,986 [ 716233]   INFO - STDOUT - Analyzing code 65%
+2024-06-03 20:25:01,699 [ 716946]   INFO - STDOUT - Analyzing code 66%
+2024-06-03 20:25:01,700 [ 716947]   INFO - STDOUT - Analyzing code 66%
+2024-06-03 20:25:01,700 [ 716947]   INFO - STDOUT - Analyzing code 66%
+2024-06-03 20:25:02,267 [ 717514]   INFO - STDOUT - Analyzing code 67%
+2024-06-03 20:25:03,078 [ 718325]   INFO - STDOUT - Analyzing code 68%
+2024-06-03 20:25:04,028 [ 719275]   INFO - STDOUT - Analyzing code 69%
+2024-06-03 20:25:04,926 [ 720173]   INFO - STDOUT - Analyzing code 70%
+2024-06-03 20:25:05,874 [ 721121]   INFO - STDOUT - Analyzing code 71%
+2024-06-03 20:25:05,876 [ 721123]   INFO - STDOUT - Analyzing code 71%
+2024-06-03 20:25:06,918 [ 722165]   INFO - STDOUT - Analyzing code 72%
+2024-06-03 20:25:07,913 [ 723160]   INFO - STDOUT - Analyzing code 73%
+2024-06-03 20:25:08,818 [ 724065]   INFO - STDOUT - Analyzing code 74%
+2024-06-03 20:25:09,773 [ 725020]   INFO - STDOUT - Analyzing code 75%
+2024-06-03 20:25:10,362 [ 725609]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project project
+2024-06-03 20:25:10,819 [ 726066]   INFO - STDOUT - Analyzing code 76%
+2024-06-03 20:25:11,431 [ 726678]   INFO - #o.j.p.s.i.r.ConsoleLog - Keep running Project analysis ... so far 1m 30s
+2024-06-03 20:25:11,432 [ 726679]   INFO - STDOUT - Keep running Project analysis ... so far 1m 30s
+2024-06-03 20:25:12,009 [ 727256]   INFO - STDOUT - Analyzing code 77%
+2024-06-03 20:25:13,106 [ 728353]   INFO - STDOUT - Analyzing code 78%
+2024-06-03 20:25:14,340 [ 729587]   INFO - STDOUT - Analyzing code 79%
+2024-06-03 20:25:15,261 [ 730508]   INFO - STDOUT - Analyzing code 80%
+2024-06-03 20:25:16,159 [ 731406]   INFO - STDOUT - Analyzing code 81%
+2024-06-03 20:25:17,247 [ 732494]   INFO - STDOUT - Analyzing code 82%
+2024-06-03 20:25:18,142 [ 733389]   INFO - STDOUT - Analyzing code 83%
+2024-06-03 20:25:18,143 [ 733390]   INFO - STDOUT - Analyzing code 83%
+2024-06-03 20:25:19,100 [ 734347]   INFO - STDOUT - Analyzing code 84%
+2024-06-03 20:25:19,955 [ 735202]   INFO - STDOUT - Analyzing code 85%
+2024-06-03 20:25:20,865 [ 736112]   INFO - STDOUT - Analyzing code 86%
+2024-06-03 20:25:21,739 [ 736986]   INFO - STDOUT - Analyzing code 87%
+2024-06-03 20:25:22,481 [ 737728]   INFO - #o.j.p.s.i.r.ConsoleLog - The Project analysis stage completed in 1m 41s
+2024-06-03 20:25:22,482 [ 737729]   INFO - STDOUT - The Project analysis stage completed in 1m 41s
+2024-06-03 20:25:22,493 [ 737740]   INFO - #o.j.p.s.i.r.AsyncInspectionToolResultWriter - Async result writer finished
+2024-06-03 20:25:22,703 [ 737950]   INFO - #o.j.p.s.i.r.QodanaRunner - sessionId: 24060320-595967141b8b
+2024-06-03 20:25:23,032 [ 738279]   INFO - STDOUT - 
+2024-06-03 20:25:23,032 [ 738279]   INFO - STDOUT - Qodana - Sanity summary
+2024-06-03 20:25:23,034 [ 738281]   INFO - STDOUT - Analysis results: 18 problems detected
+2024-06-03 20:25:23,037 [ 738284]   INFO - STDOUT - 18 suspicious problems were detected during Sanity Check. Probably there are some troubles with corresponding inspections. You may fix the problems or exclude the files containing them from the analysis
+2024-06-03 20:25:23,041 [ 738288]   INFO - STDOUT - ---------------------------------------------------------------------------------------------
+2024-06-03 20:25:23,042 [ 738289]   INFO - STDOUT - File                                                     Inspection  Severity  Problems count
+2024-06-03 20:25:23,042 [ 738289]   INFO - STDOUT - ---------------------------------------------------------------------------------------------
+2024-06-03 20:25:23,043 [ 738290]   INFO - STDOUT - errors.def                                           Java annotator  Critical               4
+2024-06-03 20:25:23,043 [ 738290]   INFO - STDOUT - defaults.def                                         Java annotator  Critical               4
+2024-06-03 20:25:23,043 [ 738290]   INFO - STDOUT - definitions.def                                      Java annotator  Critical               4
+2024-06-03 20:25:23,044 [ 738291]   INFO - STDOUT - coerce.def                                           Java annotator  Critical               3
+2024-06-03 20:25:23,044 [ 738291]   INFO - STDOUT - missing.def                                          Java annotator  Critical               3
+2024-06-03 20:25:23,045 [ 738292]   INFO - STDOUT - ---------------------------------------------------------------------------------------------
+2024-06-03 20:25:23,045 [ 738292]   INFO - STDOUT - 
+2024-06-03 20:25:23,048 [ 738295]   INFO - STDOUT - 
+2024-06-03 20:25:23,048 [ 738295]   INFO - STDOUT - Qodana - Detailed summary
+2024-06-03 20:25:23,048 [ 738295]   INFO - STDOUT - Analysis results: 6 problems detected
+2024-06-03 20:25:23,049 [ 738296]   INFO - STDOUT - By severity: High - 6
+2024-06-03 20:25:23,050 [ 738297]   INFO - STDOUT - ----------------------------------------------------------------------------
+2024-06-03 20:25:23,050 [ 738297]   INFO - STDOUT - Name                                                Severity  Problems count
+2024-06-03 20:25:23,050 [ 738297]   INFO - STDOUT - ----------------------------------------------------------------------------
+2024-06-03 20:25:23,050 [ 738297]   INFO - STDOUT - Redundant character escape                              High               6
+2024-06-03 20:25:23,051 [ 738298]   INFO - STDOUT - ----------------------------------------------------------------------------
+2024-06-03 20:25:23,051 [ 738298]   INFO - STDOUT - 
+2024-06-03 20:25:23,090 [ 738337]   INFO - STDOUT - 
+2024-06-03 20:25:23,090 [ 738337]   INFO - STDOUT - Qodana - Problems examples summary
+2024-06-03 20:25:23,091 [ 738338]   INFO - STDOUT - Analysis results: 2 problems detected
+2024-06-03 20:25:23,091 [ 738338]   INFO - STDOUT - Here we show only a part of the problems found by suggested inspections. To see all problems you should enable corresponding inspections in profile
+2024-06-03 20:25:23,092 [ 738339]   INFO - STDOUT - ----------------------------------------------------------------------------
+2024-06-03 20:25:23,092 [ 738339]   INFO - STDOUT - Name                                                Severity  Problems count
+2024-06-03 20:25:23,093 [ 738340]   INFO - STDOUT - ----------------------------------------------------------------------------
+2024-06-03 20:25:23,093 [ 738340]   INFO - STDOUT - Regular expression can be simplified                    High               2
+2024-06-03 20:25:23,093 [ 738340]   INFO - STDOUT - ----------------------------------------------------------------------------
+2024-06-03 20:25:23,094 [ 738341]   INFO - STDOUT - 
+2024-06-03 20:25:25,076 [ 740323]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=project, containerState=COMPONENT_CREATED, componentStore=/data/project)XDebuggerManager took 21 ms
+2024-06-03 20:25:25,289 [ 740536]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
+2024-06-03 20:25:26,312 [ 741559]   INFO - #c.i.i.StartupUtil - notify that start-up thread is free
+2024-06-03 20:25:26,342 [ 741589]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2024-06-03 20:25:26,348 [ 741595]   INFO - #o.j.i.BuiltInServer - web server stopped
+2024-06-03 20:25:26,359 [ 741606]   INFO - #c.i.u.i.FileBasedIndexImpl - START INDEX SHUTDOWN
+2024-06-03 20:25:26,418 [ 741665]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2024-06-03 20:25:26,419 [ 741666]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/222/index/rep.names
+2024-06-03 20:25:26,421 [ 741668]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/222/index/rep.names
+2024-06-03 20:25:26,481 [ 741728]   INFO - #c.i.u.i.FileBasedIndexImpl - END INDEX SHUTDOWN
+2024-06-03 20:25:26,530 [ 741777]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2024-06-03 20:25:26,614 [ 741861]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed
+2024-06-03 20:25:26,614 [ 741861]   INFO - #c.i.o.f.i.FileTypeDetectionService - 13200 auto-detected files. Detection took 252413 ms
+2024-06-03 20:45:54,799 [     47]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2024-06-03 20:45:54,802 [     50]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=JavaScript and TypeScript, id=JavaScript, descriptorPath=plugin.xml, path=/opt/idea/plugins/javascript-plugin, version=241.17569, package=null, isBundled=true) misses optional descriptor javascript-features-trainer.xml
+2024-06-03 20:45:55,029 [    277]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 21 ms
+2024-06-03 20:45:55,033 [    281]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2024-06-03 20:45:55,034 [    282]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2024-06-03 20:45:55,035 [    283]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 13107200000
+2024-06-03 20:45:55,035 [    283]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2024-06-03 20:45:55,038 [    286]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2024-06-03 20:45:55,041 [    289]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2024-06-03 20:45:55,042 [    290]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2024-06-03 20:45:55,043 [    291]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2024-06-03 20:45:55,046 [    294]   INFO - #c.i.p.i.b.AppStarter - IDE: Qodana for JVM (build #QDJVM-241.17569.155, Thu, 23 May 2024 05:12:00 GMT)
+2024-06-03 20:45:55,047 [    295]   INFO - #c.i.p.i.b.AppStarter - OS: Linux (5.15.146.1-microsoft-standard-wsl2)
+2024-06-03 20:45:55,048 [    296]   INFO - #c.i.p.i.b.AppStarter - JRE: 17.0.11+1-b1207.24, amd64 (JetBrains s.r.o.)
+2024-06-03 20:45:55,049 [    297]   INFO - #c.i.p.i.b.AppStarter - JVM: 17.0.11+1-b1207.24 (OpenJDK 64-Bit Server VM)
+2024-06-03 20:45:55,053 [    301]   INFO - #c.i.p.i.b.AppStarter - PID: 17
+2024-06-03 20:45:55,054 [    302]   INFO - #c.i.p.i.b.AppStarter - desktop: null
+2024-06-03 20:45:55,056 [    304]   INFO - #c.i.p.i.b.AppStarter - toolkit: sun.awt.HeadlessToolkit
+2024-06-03 20:45:55,083 [    331]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-XX:ErrorFile=/root/java_error_in_idea_%p.log, -XX:HeapDumpPath=/root/java_error_in_idea_.hprof, -Dfus.internal.reduce.initial.delay=true, -Dide.warmup.use.predicates=false, -Didea.application.info.value=/opt/idea/bin/QodanaAppInfo.xml, -Didea.config.path=/root/.config/idea, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-a954-bbd2-d9c6-ad2ea3189574, -Didea.headless.statistics.max.files.to.send=5000, -Didea.headless.statistics.salt=6ba1c92c7ea959ff791b8de4d3173f77, -Didea.job.launcher.without.timeout=true, -Didea.log.path=/data/results/log, -Didea.parent.prefix=Idea, -Didea.platform.prefix=Qodana, -Didea.plugins.path=/data/cache/plugins/241, -Didea.qodana.thirdpartyplugins.accept=true, -Didea.system.path=/data/cache/idea/241, -Dinspect.save.project.settings=true, -Djava.awt.headless=true, -Djava.net.useSystemProxies=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dqodana.automation.guid=3da1d3e5-2469-4114-bbb6-1f34f1532a71, -Dqodana.coverage.input=/data/coverage, -Dscanning.in.smart.mode=false, -Dsun.io.useCanonCaches=false, -Dsun.tools.attach.tmp.only=true, -Dvcs.log.index.enable=false, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:MaxJavaStackTraceDepth=10000, -XX:MaxRAMPercentage=70, -XX:ReservedCodeCacheSize=512m, -XX:SoftRefLRUPolicyMSPerMB=50, -Xlog:gc*:/data/results/log/gc.log, -ea, -Djb.vmOptionsFile=/root/.config/idea/ide.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=IntelliJIdea2024.1, -Djna.boot.library.path=/opt/idea/lib/jna/amd64, -Dpty4j.preferred.native.folder=/opt/idea/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Dintellij.platform.runtime.repository.path=/opt/idea/modules/module-descriptors.jar, -Dsplash=true, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2024-06-03 20:45:55,085 [    333]   INFO - #c.i.p.i.b.AppStarter - args: inspect qodana . /data/results
+2024-06-03 20:45:55,085 [    333]   INFO - #c.i.i.p.PluginManager - Module intellij.less/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.less/watcher is not enabled because dependency com.intellij.plugins.watcher is not available
+Module intellij.sh.python is not enabled because dependency intellij.python.community.impl is not available
+Module intellij.sh.markdown is not enabled because dependency org.intellij.plugins.markdown is not available
+Module intellij.sh.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.sh.terminal is not enabled because dependency org.jetbrains.plugins.terminal is not available
+Module kotlin.copyright is not enabled because dependency com.intellij.copyright is not available
+Module kotlin.features-trainer is not enabled because dependency training is not available
+Module kotlin.ml-completion is not enabled because dependency com.intellij.completion.ml.ranking is not available
+Module kotlin.jvm-debugger.sequence is not enabled because dependency org.jetbrains.debugger.streams is not available
+Module kotlin.jvm-decompiler is not enabled because dependency org.jetbrains.java.decompiler is not available
+Module kotlin-ultimate.profiler is not enabled because dependency com.intellij.LineProfiler is not available
+Module intellij.kotlin.onboarding-promoter is not enabled because dependency kotlin.features-trainer is not available
+Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.spring.graph is not enabled because dependency com.intellij.diagram is not available
+Module intellij.javaee.cdi/diagram is not enabled because dependency com.intellij.diagram is not available
+Module intellij.webDeployment.transport is not enabled because dependency com.jetbrains.plugins.webDeployment is not available
+Module intellij.spring.integration.core/diagram is not enabled because dependency intellij.spring.graph is not available
+Module intellij.spring.boot.core/rewrite is not enabled because dependency com.intellij.openRewrite is not available
+Module intellij.spring.boot.run.diagram is not enabled because dependency intellij.spring.graph is not available
+Module intellij.spring.jsf is not enabled because dependency com.intellij.jsf is not available
+Module intellij.javaee.jsp.base.impl/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.javaee.jsp.base.impl/servers is not enabled because dependency com.intellij.javaee.app.servers.integration is not available
+Module intellij.postcss/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.groovy/byte-code-viewer is not enabled because dependency ByteCodeViewer is not available
+Module intellij.groovy/ant is not enabled because dependency AntSupport is not available
+Module intellij.httpClient.injection.graphql is not enabled because dependency com.intellij.lang.jsgraphql is not available
+Module intellij.java.ide.customization/training is not enabled because dependency training is not available
+Module intellij.grazie.markdown is not enabled because dependency org.intellij.plugins.markdown is not available
+Module intellij.maven.ext/uml is not enabled because dependency com.intellij.diagram is not available
+Module intellij.maven.ext/javaee-ejb is not enabled because dependency com.intellij.javaee.ejb is not available
+Module intellij.maven.ext/remoteRun is not enabled because dependency org.jetbrains.plugins.remote-run is not available
+Module intellij.ktor.starter/markdown is not enabled because dependency org.intellij.plugins.markdown is not available
+Module intellij.gradle.ext/remote-run is not enabled because dependency org.jetbrains.plugins.remote-run is not available
+Module intellij.gradle.ext/docker.remoteRun is not enabled because dependency intellij.clouds.docker.remoteRun is not available
+Module intellij.gradle.ext/diagram is not enabled because dependency com.intellij.diagram is not available
+Module kotlin-ultimate.common-native is not enabled because dependency com.intellij.modules.cidr.debugger is not available
+Module kotlin-ultimate.ultimate-native is not enabled because dependency kotlin-ultimate.common-native is not available
+Module intellij.aqua.runners.cypress is not enabled because dependency intellij.sh.terminal is not available
+Module intellij.javascript.impl/diagrams is not enabled because dependency com.intellij.diagram is not available
+Module intellij.restClient/intelliLangInJs is not enabled because dependency com.intellij.jsonpath is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.python is not enabled because dependency intellij.python is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.go is not enabled because dependency intellij.go.coverage is not available
+Module intellij.database.docker is not enabled because dependency Docker is not available
+Module intellij.database.diagrams is not enabled because dependency com.intellij.diagram is not available
+Module intellij.javaee.persistence.diagram is not enabled because dependency com.intellij.diagram is not available
+Module intellij.javaee.jpa.diagram is not enabled because dependency intellij.javaee.persistence.diagram is not available
+Module intellij.packageChecker.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.packageChecker.python is not enabled because dependency intellij.python.community.impl is not available
+Module intellij.packageChecker.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.vuejs/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.vuejs/prettier is not enabled because dependency intellij.prettierJS is not available
+Module intellij.spring.mvc.impl/thymeleaf is not enabled because dependency com.intellij.thymeleaf is not available
+Module intellij.microservices.ui/diagram is not enabled because dependency com.intellij.diagram is not available
+2024-06-03 20:45:55,085 [    333]   INFO - #c.i.p.i.b.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2024-06-03 20:45:55,088 [    336]   INFO - #c.i.p.i.b.AppStarter - boot library path: /opt/idea/jbr/lib
+2024-06-03 20:45:55,119 [    367]   INFO - #c.i.p.i.b.AppStarter - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/root/.config/idea
+    idea.system.path=/data/cache/idea/241
+    idea.plugins.path=/data/cache/plugins/241 -> java.nio.file.NoSuchFileException: /data/cache/plugins/241
+    idea.log.path=/data/results/log
+2024-06-03 20:45:55,125 [    373]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1bae5076[Running, parallelism = 8, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6edc6775
+2024-06-03 20:45:55,146 [    394]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (241.17569.155), TextMate Bundles (241.17569), Images (241.17569), CSS (241.17569), Less (241.17569), EditorConfig (241.17569), YAML (241.17569), Sass (241.17569), JetBrains maven model api classes (241.17569), JetBrains Repository Search (241.17569), Maven server api classes (241.17569), Mercurial (241.17569), Properties (241.17569), Gradle (241.17569), com.intellij.dev (241.17569), Java (241.17569), AOP Pointcut Language (241.17569), Plugin DevKit (241.17569), Lombok (241.17569), JVM Microservices Frameworks (241.17569), JUnit (241.17569), Eclipse Interoperability (241.17569), Shell Script (241.17569), HTML Tools (241.17569), Kotlin (241.17569-IJ), Data Editor Support Core (241.17569), Gradle DSL API (241.17569), Toml (241.17569), Java Internationalization (241.17569), UI Designer (241.17569), FreeMarker (241.17569), Spring Messaging (241.17569), Spring (241.17569), Spring Initializr (241.17569), Jakarta EE: Contexts and Dependency Injection (CDI) (241.17569), Spring Security (241.17569), Jakarta EE: RESTful Web Services (JAX-RS) (241.17569), Jakarta EE Platform (241.17569), Spring Integration Patterns (241.17569), Spring Cloud (241.17569), Spring Boot (241.17569), Jakarta EE: Expression Language (EL) (241.17569), Jakarta EE: Server Pages (JSP) (241.17569), PostCSS (241.17569), XPathView + XSLT (241.17569), IntelliLang (241.17569), Groovy (241.17569), Jakarta EE: Web/Servlets (241.17569), HTTP Client (241.17569), Charts Support (241.17569), Data Editor Support (241.17569), TestNG (241.17569), Code Coverage for Java (241.17569), Java IDE Customization (241.17569), Grazie Lite (241.17569), Apache Velocity (241.17569), Configuration Script (241.17569), Shared Indexes (241.17569), Maven (241.17569), Maven Extension (241.17569), Ktor (241.17569), Gradle-Java (241.17569), Gradle Extension (241.17569), Gradle-Maven (241.17569), Reactive Streams (241.17569), Git (241.17569), Webpack (241.17569), JavaScript Debugger (241.17569), JavaScript and TypeScript (241.17569), Qodana (241.17569), Shared Project Indexes (241.17569), Database Tools and SQL (241.17569), Spring Data (241.17569), Jakarta EE: Persistence (JPA) (241.17569), Persistence Frameworks (241.17569), Hibernate (241.17569), Polymer & Web Components (241.17569), Karma (241.17569), Node.js (241.17569), Dependency Analysis (241.17569), JavaScript Intention Power Pack (241.17569), Jakarta EE: Bean Validation (241.17569), Package Checker (241.17569), Vue.js (241.17569), Gradle Dependency Updater Implementation (241.17569), Spring Web (241.17569), Endpoints (241.17569)
+2024-06-03 20:45:55,244 [    492]   INFO - #c.i.c.InspectionApplicationBase - Command line arguments: [inspect, qodana, ., /data/results]
+2024-06-03 20:45:55,251 [    499]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 17 ms (hash=8qedls1asxqm, buildTime=1716441120, appVersion=QDJVM-241.17569.155)
+2024-06-03 20:45:55,920 [   1168]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI)
+2024-06-03 20:45:55,948 [   1196]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2024-06-03 20:45:55,997 [   1245]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/data/cache/.m2}
+2024-06-03 20:45:56,023 [   1271]   INFO - STDOUT - By using this Docker image, you agree to
+2024-06-03 20:45:56,024 [   1272]   INFO - STDOUT - - JetBrains Privacy Policy (https://jb.gg/jetbrains-privacy-policy)
+2024-06-03 20:45:56,025 [   1273]   INFO - STDOUT - - Qodana Linters Agreement (https://www.jetbrains.com/legal/docs/agreements/qodana/license/)
+2024-06-03 20:45:56,026 [   1274]   INFO - STDOUT - Licensed to FH Technikum Wien
+2024-06-03 20:45:56,027 [   1275]   INFO - STDOUT - Subscription is active until August 1, 2024.
+2024-06-03 20:45:56,029 [   1277]   INFO - STDOUT - Qodana license plan: Ultimate Plus
+2024-06-03 20:45:56,062 [   1310]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses 'fast' names enumerator (over mmapped file)
+2024-06-03 20:45:56,063 [   1311]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2024-06-03 20:45:56,063 [   1311]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2024-06-03 20:45:56,120 [   1368]   WARN - org.jline - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2024-06-03 20:45:56,183 [   1431]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2024-06-03 20:45:56,183 [   1431]   WARN - java.util.prefs - Invalid preferences format in /root/.java/.userPrefs/prefs.xml
+2024-06-03 20:45:56,231 [   1479]   WARN - org.jline - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2024-06-03 20:45:56,249 [   1497]   INFO - STDOUT -                                         
+2024-06-03 20:45:56,250 [   1498]   INFO - STDOUT -           _              _       
+2024-06-03 20:45:56,251 [   1499]   INFO - STDOUT -          /\ \           /\ \        Qodana for JVM 2024.1
+2024-06-03 20:45:56,252 [   1500]   INFO - STDOUT -         /  \ \         /  \ \       Documentation
+2024-06-03 20:45:56,253 [   1501]   INFO - STDOUT -        / /\ \ \       / /\ \ \      https://jb.gg/qodana-docs
+2024-06-03 20:45:56,259 [   1507]   INFO - STDOUT -       / / /\ \ \     / / /\ \ \     Contact us at
+2024-06-03 20:45:56,263 [   1511]   INFO - STDOUT -      / / /  \ \_\   / / /  \ \_\    qodana-support@jetbrains.com
+2024-06-03 20:45:56,263 [   1511]   INFO - STDOUT -     / / / _ / / /  / / /   / / /    Or via our issue tracker
+2024-06-03 20:45:56,264 [   1512]   INFO - STDOUT -    / / / /\ \/ /  / / /   / / /     https://jb.gg/qodana-issue
+2024-06-03 20:45:56,266 [   1514]   INFO - STDOUT -   / / /__\ \ \/  / / /___/ / /      Or share your feedback at our forum
+2024-06-03 20:45:56,270 [   1518]   INFO - STDOUT -  / / /____\ \ \ / / /____\/ /       https://jb.gg/qodana-forum
+2024-06-03 20:45:56,276 [   1524]   INFO - STDOUT -  \/________\_\/ \/_________/     
+2024-06-03 20:45:56,279 [   1527]   INFO - STDOUT -                                                    
+2024-06-03 20:45:56,280 [   1528]   INFO - STDOUT -                                         
+2024-06-03 20:45:56,283 [   1531]   INFO - STDOUT - Starting up Qodana for JVM 2024.1 (build QDJVM-241.17569.155)…done.
+2024-06-03 20:45:56,581 [   1829]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2024-06-03 20:45:56,664 [   1912]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2024-06-03 20:45:58,401 [   3649]   INFO - #c.i.i.s.DeviceIdManager - Generating new Device ID for 'MP'
+2024-06-03 20:45:58,402 [   3650]   INFO - #c.i.i.s.e.EventLogConfiguration - Generating new salt for MP
+2024-06-03 20:45:59,973 [   5221]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project opening stage ...
+2024-06-03 20:45:59,975 [   5223]   INFO - STDOUT - Preparing for the Project opening stage ...
+2024-06-03 20:46:11,213 [  16461]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846397, 0 file records, 0 content blobs
+2024-06-03 20:46:11,233 [  16481]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 15193 ms, 0 failed attempts, 0 error(s) were recovered
+2024-06-03 20:46:11,249 [  16497]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2024-06-03 20:46:11,278 [  16526]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2024-06-03 20:46:11,883 [  17131]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[DefaultDispatcher-worker-31,5,main]
+2024-06-03 20:46:12,088 [  17336]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2024-06-03 20:46:12,222 [  17470]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2024-06-03 20:46:12,226 [  17474]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2024-06-03 20:46:12,245 [  17493]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2024-06-03 20:46:12,458 [  17706]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Apply JPS storage (iml files)
+2024-06-03 20:46:12,941 [  18189]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-06-03 20:46:12,997 [  18245]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Changes were successfully applied
+2024-06-03 20:46:13,347 [  18595]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2024-06-03 20:46:13,362 [  18610]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Running initialization condition: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@49352f71
+2024-06-03 20:46:13,373 [  18621]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Finished: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@49352f71
+2024-06-03 20:46:13,384 [  18632]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@5052276e
+2024-06-03 20:46:13,402 [  18650]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@5052276e
+2024-06-03 20:46:13,412 [  18660]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@1af5394b
+2024-06-03 20:46:13,451 [  18699]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2024-06-03 20:46:13,995 [  19243]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2024-06-03 20:46:15,183 [  20431]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - Start refreshing typescript libraries
+2024-06-03 20:46:15,614 [  20862]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - End refreshing typescript libraries
+2024-06-03 20:46:19,518 [  24766]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:KotlinBinaryRootToPackageIndex(v = 5),js.test.names(v = 24),spring.boot.importsFileIndex(v = 1),xmlProperties(v = 2),KotlinTopLevelCallableByPackageShortNameIndex(v = 3),spring.spiFileIndex(v = 3),HtmlScriptSrcIndex(v = 1),bytecodeAnalysis(v = 11),TypeScriptExternalPathCandidates(v = 0),js.package.index(v = 12),java.source.module.name(v = 4),json.file.root.values(v = 5),FtlFileIndex(v = 5),fileIncludes(v = 6),Trigram.Index(v = 4),taglibUris(v = 7),org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex(v = 4),XsltSymbolIndex(v = 0),js.custom.single.entry.index(v = 954846),devkit.ExtensionPointClassIndex(v = 11),http.request.name.index(v = 2),devkit.ExtensionPointIndex(v = 11),java.binary.plus.expression(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),spring.autoConfigureMetadataIndex(v = 2),XmlNamespaces(v = 8),html5.custom.attributes.index(v = 1),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),FrameworkDetectionIndex(v = 65536),SchemaTypeInheritance(v = 2),js.string.literal.words.index(v = 4),Stubs(v = 46),java.auto.module.name(v = 6),WebComponentsIndex(v = 5),sql.types.count.index(v = 0),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),LombokConfigIndex(v = 14),PluginIdDependenciesIndex(v = 15),XmlTagNames(v = 1),IdIndex(v = 22),http.request.headers.values.index(v = 4),IdeaPluginRegistrationIndex(v = 18),http.request.completion.host(v = 5),VueNoScriptFilesIndex(v = 11),SpringXmlBeansIndex(v = 661),VtlFileIndex(v = 1),editorconfig.index.name(v = 5),java.null.method.argument(v = 1),KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex(v = 5),css.template.selectors(v = 36),http.request.execution.environment(v = 3),PluginIdModuleIndex(v = 12),CompassFunctionsIndex(v = 39),KotlinPackageSourcesMemberNamesIndex(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),com.intellij.uiDesigner.FormClassIndex(v = 0),CssIndex(v = 41),filetypes(v = 4096),HashFragmentIndex(v = 19111503),RelaxSymbolIndex(v = 0),FilenameIndex(v = 258),org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 2),HtmlTagIdIndex(v = 3),sql.routine.index(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),VueComponentStylesIndex(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 2),js.implicit.elements.index(v = 954856),DomFileIndex(v = 0),TodoIndex(v = 13),org.jetbrains.kotlin.idea.vfilefinder.KotlinShortClassNameFileIndex(v = 3),yaml.keys.name(v = 1),java.fun.expression(v = 6),com.intellij.jpa.jpb.model.EntityRegisterFileIndex(v = 0)
+2024-06-03 20:46:19,525 [  24773]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2024-06-03 20:46:19,534 [  24782]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 8255 ms. Initialized indexes: [FilenameIndex, Trigram.Index, DomFileIndex, FrameworkDetectionIndex, fileIncludes, TodoIndex, IdIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, Stubs, html5.custom.attributes.index, json.file.root.values, SchemaTypeInheritance, CssIndex, HashFragmentIndex, css.template.selectors, java.auto.module.name, editorconfig.index.name, yaml.keys.name, xmlProperties, CompassFunctionsIndex, filetypes, java.source.module.name, java.null.method.argument, java.binary.plus.expression, bytecodeAnalysis, java.fun.expression, PluginIdModuleIndex, IdeaPluginRegistrationIndex, PluginIdDependenciesIndex, LombokConfigIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, FtlFileIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, HtmlTagIdIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinShortClassNameFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, KotlinTopLevelCallableByPackageShortNameIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex, KotlinBinaryRootToPackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, http.request.execution.environment, http.request.completion.host, http.request.headers.values.index, com.intellij.uiDesigner.FormClassIndex, http.request.name.index, SpringXmlBeansIndex, spring.spiFileIndex, spring.boot.importsFileIndex, spring.autoConfigureMetadataIndex, taglibUris, XsltSymbolIndex, js.test.names, VtlFileIndex, js.package.index, js.custom.single.entry.index, js.implicit.elements.index, js.string.literal.words.index, TypeScriptExternalPathCandidates, HtmlScriptSrcIndex, sql.types.count.index, com.intellij.jpa.jpb.model.EntityRegisterFileIndex, sql.routine.index, WebComponentsIndex, VueNoScriptFilesIndex, VueComponentStylesIndex].
+2024-06-03 20:46:19,580 [  24828]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@1af5394b
+2024-06-03 20:46:19,581 [  24829]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@2536f96d
+2024-06-03 20:46:19,584 [  24832]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@2536f96d
+2024-06-03 20:46:19,584 [  24832]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@7d13f252
+2024-06-03 20:46:19,586 [  24834]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@7d13f252
+2024-06-03 20:46:19,586 [  24834]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.ide.projectWizard.generators.SdkPreIndexingRequiredForSmartModeActivity@1342f498
+2024-06-03 20:46:19,592 [  24840]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.ide.projectWizard.generators.SdkPreIndexingRequiredForSmartModeActivity@1342f498
+2024-06-03 20:46:19,631 [  24879]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of project. Reason: On project open
+2024-06-03 20:46:19,640 [  24888]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for project took 3ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:19,655 [  24903]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: App fingerprint changed: FingerprintImpl(fingerprint=0) to FingerprintImpl(fingerprint=1149493970677893070)
+2024-06-03 20:46:19,675 [  24923]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of project uses 8 scanning threads
+2024-06-03 20:46:20,198 [  25446]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-06-03 20:46:20,206 [  25454]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 26 ms: JS: apply diff
+2024-06-03 20:46:21,713 [  26961]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 91 ms
+2024-06-03 20:46:24,493 [  29741]   WARN - java.util.prefs - Prefs file removed in background /root/.java/.userPrefs/prefs.xml
+2024-06-03 20:46:26,164 [  31412]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of login.component.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file login.component.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=267, fileInfo='login.component.ts(id=267)'}] and removers: []; 
+2024-06-03 20:46:26,178 [  31426]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of login.component.css by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,fileIncludes->NOT_INDEXED,CssIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,]. Scanner has updated file login.component.css with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=265, fileInfo='login.component.css(id=265)'}] and removers: []; 
+2024-06-03 20:46:27,071 [  32319]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of login.component.html by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,html5.custom.attributes.index->NOT_INDEXED,CssIndex->NOT_INDEXED,css.template.selectors->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.implicit.elements.index->NOT_INDEXED,WebComponentsIndex->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,HtmlTagIdIndex->NOT_INDEXED,HtmlScriptSrcIndex->NOT_INDEXED,]. Scanner has updated file login.component.html with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=264, fileInfo='login.component.html(id=264)'}] and removers: []; 
+2024-06-03 20:46:27,115 [  32363]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of login.component.spec.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file login.component.spec.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=266, fileInfo='login.component.spec.ts(id=266)'}] and removers: []; 
+2024-06-03 20:46:27,134 [  32382]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sign-up.component.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file sign-up.component.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=269, fileInfo='sign-up.component.ts(id=269)'}] and removers: []; 
+2024-06-03 20:46:27,139 [  32387]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sign-up.component.css by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,fileIncludes->NOT_INDEXED,CssIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,]. Scanner has updated file sign-up.component.css with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=271, fileInfo='sign-up.component.css(id=271)'}] and removers: []; 
+2024-06-03 20:46:27,150 [  32398]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sign-up.component.html by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,html5.custom.attributes.index->NOT_INDEXED,CssIndex->NOT_INDEXED,css.template.selectors->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.implicit.elements.index->NOT_INDEXED,WebComponentsIndex->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,HtmlTagIdIndex->NOT_INDEXED,HtmlScriptSrcIndex->NOT_INDEXED,]. Scanner has updated file sign-up.component.html with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=270, fileInfo='sign-up.component.html(id=270)'}] and removers: []; 
+2024-06-03 20:46:27,155 [  32403]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sign-up.component.spec.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file sign-up.component.spec.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=268, fileInfo='sign-up.component.spec.ts(id=268)'}] and removers: []; 
+2024-06-03 20:46:27,861 [  33109]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:java.class.extlist(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),vue.url.index(v = 25),sql.names(v = 21),postcss.custom.media(v = 2),js.symbol.qualified.names.index(v = 1),js.namespace.index(v = 2),vue.id.index(v = 25),Css.custom.property(v = 2),java.unnamed.class(v = 2),java.anonymous.baseref(v = 2),Css.attr(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),java.module.name(v = 4),gr.field.name(v = 5),Scss.placeholder.selector(v = 2),vue.composition.app.index(v = 25),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),JS.class.implements(v = 3),js.nonglobal.symbol.index(v = 2),sql.column.name(v = 3),js.global.symbol.index(v = 2),java.annotations(v = 2),KotlinExtensionsInObjectsByReceiverTypeIndex(v = 2),dom.namespaceKey(v = 1),js.element.qualifiedName(v = 3),es6.exported.index(v = 2),KotlinOverridableInternalMembersShortNameIndex(v = 2),jvm.static.member.type(v = 2),postcss.custom.selector(v = 2),js.lazy.packages(v = 3),KotlinTopLevelTypeAliasByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 2),JS.global.qualified.elements(v = 3),es6.assignment.index(v = 2),Css.custom.variable(v = 3),js.exported.index(v = 2),ts.local.classes(v = 2),gr.script.class(v = 5),Less.variables(v = 2),KotlinProbablyNothingPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),redis.dml.shortName(v = 3),amd.requirePaths.index(v = 2),ts.embedded.content.index(v = 2),vue.global.filters.index(v = 25),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 2),JS.subclass.stub.index(v = 2),dom.elementClass(v = 0),js.symbol.index2(v = 6),JS.base.types.index(v = 3),js.doc.modules(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),js.qualified.shortName(v = 4),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),gr.annot.members(v = 5),js.export.default.react.component.index(v = 2),kotlin.primeIndexKey(v = 2),amd.baseUrl.index(v = 2),gr.class.fqn.s(v = 5),JS.class.super(v = 5),js.used.remote.modules(v = 2),KotlinTopLevelExtensionsByReceiverTypeIndex(v = 3),gr.class.super(v = 5),sql.table.shortName(v = 3),js.typedef.index2(v = 2),gr.method.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex(v = 2),java.class.shortname(v = 4),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 2),js.amd.modules(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),gr.script.fqn.s(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex(v = 2),gr.annot.method.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex(v = 2),js.gcl.modules(v = 2),vue.options.index(v = 25),jvm.static.member.name(v = 2),Scss.function(v = 3),KotlinTopLevelFunctionByPackageIndex(v = 2),vue.extends.binding.index(v = 25),KotlinTopLevelPropertyByPackageIndex(v = 2),Scss.mixin(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),KotlinFileFacadeClassByPackageIndex(v = 2),Css.custom.mixin(v = 2),Css.class(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),vue.components.index(v = 25),js.generics.index(v = 2),KotlinTypeAliasByExpansionShortNameIndex(v = 2),KotlinProbablyContractedFunctionShortNameIndex(v = 2),vue.mixin.binding.index(v = 25),Scss.variable(v = 2),java.method.parameter.types(v = 3),js.local.namespace.members.index(v = 2),Css.id(v = 2),properties.index(v = 2),KotlinProbablyNothingFunctionShortNameIndex(v = 2),vue.global.directives.index(v = 25),Css.ampersand.selector(v = 2),ts.external.module.index(v = 3),JS.framework.markers.index(v = 2),Less.mixins(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),java.class.fqn(v = 1),java.method.name(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 2),vuex.store.index(v = 25),js.class.index2(v = 3),ts.external.module.name.index(v = 3),java.field.name(v = 2),js.imported.bindings.index(v = 2),gr.anonymous.class(v = 6)
+2024-06-03 20:46:27,863 [  33111]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 8327 ms. Initialized stub indexes: {vue.id.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, js.global.symbol.index, js.symbol.qualified.names.index, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, Css.custom.mixin, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.annot.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, vue.extends.binding.index, KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, dom.namespaceKey, amd.baseUrl.index, ts.external.module.name.index, gr.class.super, amd.requirePaths.index, gr.class.fqn.s, gr.script.fqn.s, KotlinFileFacadeClassByPackageIndex, java.class.shortname, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, JS.global.qualified.elements, js.imported.bindings.index, js.namespace.index, properties.index, KotlinProbablyNothingFunctionShortNameIndex, js.element.qualifiedName, gr.method.name, gr.annot.members, sql.column.name, ts.external.module.index, js.lazy.packages, JS.framework.markers.index, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, jvm.static.member.name, gr.anonymous.class, java.module.name, Css.custom.property, vuex.store.index, KotlinExtensionsInObjectsByReceiverTypeIndex, es6.exported.index, vue.global.filters.index, java.class.fqn, java.method.name, Css.custom.variable, Css.attr, java.anonymous.baseref, Scss.placeholder.selector, kotlin.primeIndexKey, gr.script.class, js.used.remote.modules, ts.embedded.content.index, KotlinProbablyContractedFunctionShortNameIndex, gr.field.name, vue.components.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, js.nonglobal.symbol.index, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, vue.composition.app.index, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, vue.options.index, js.qualified.shortName, js.symbol.index2, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, Scss.mixin, Css.id, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, js.typedef.index2, redis.dml.shortName, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, java.method.parameter.types, js.generics.index, KotlinTopLevelFunctionByPackageIndex, vue.mixin.binding.index, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, Scss.variable, es6.assignment.index, KotlinTypeAliasByExpansionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, JS.subclass.stub.index, JS.class.super, java.field.name, sql.table.shortName, java.class.extlist, js.doc.modules, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, vue.global.directives.index, JS.base.types.index, dom.elementClass, postcss.custom.selector, JS.class.implements, java.unnamed.class, js.export.default.react.component.index, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, vue.url.index, js.class.index2, KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, Css.ampersand.selector, js.amd.modules, js.exported.index, KotlinTopLevelExtensionsByReceiverTypeIndex, Scss.function, ts.local.classes, js.local.namespace.members.index, sql.names, Css.class, js.gcl.modules, Less.mixins, jvm.static.member.type, KotlinOverridableInternalMembersShortNameIndex, postcss.custom.media, KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, Less.variables}.
+2024-06-03 20:46:28,570 [  33818]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of score-board.component.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,]. 
+2024-06-03 20:46:28,576 [  33824]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of score-board.component.css by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,fileIncludes->NOT_INDEXED,CssIndex->NOT_INDEXED,Stubs->NOT_INDEXED,HashFragmentIndex->NOT_INDEXED,]. 
+2024-06-03 20:46:29,465 [  34713]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file favicon.ico with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=252, fileInfo='favicon.ico(id=252)'}] and removers: []; 
+2024-06-03 20:46:29,472 [  34720]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file vcs.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=288, fileInfo='vcs.xml(id=288)'}] and removers: []; 
+2024-06-03 20:46:29,475 [  34723]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file .gitignore with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=287, fileInfo='.gitignore(id=287)'}] and removers: []; 
+2024-06-03 20:46:29,477 [  34725]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file modules.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=285, fileInfo='modules.xml(id=285)'}] and removers: []; 
+2024-06-03 20:46:29,479 [  34727]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file project.iml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=289, fileInfo='project.iml(id=289)'}] and removers: []; 
+2024-06-03 20:46:29,481 [  34729]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file workspace.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=286, fileInfo='workspace.xml(id=286)'}] and removers: []; 
+2024-06-03 20:46:29,983 [  35231]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project opening ... so far 30s
+2024-06-03 20:46:29,984 [  35232]   INFO - STDOUT - Opening project…Keep running Project opening ... so far 30s
+2024-06-03 20:46:30,505 [  35753]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file qodana.sarif.json with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=328, fileInfo='qodana.sarif.json(id=328)'}] and removers: []; 
+2024-06-03 20:46:30,517 [  35765]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file webframeworks-ue02-if23b168.zip with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=246, fileInfo='webframeworks-ue02-if23b168.zip(id=246)'}] and removers: []; 
+2024-06-03 20:46:31,068 [  36316]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for project. Number of scanned files: 562; number of files for indexing: 554 took 11427ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:31,074 [  36322]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: marking roots for initial VFS refresh
+2024-06-03 20:46:31,077 [  36325]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: starting initial VFS refresh of 1 roots
+2024-06-03 20:46:33,221 [  38469]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: initial VFS refresh finished in 2138 ms
+2024-06-03 20:46:33,239 [  38487]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 4 indexing and 4 writing threads for indexing
+2024-06-03 20:46:43,265 [  48513]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,266 [  48514]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,305 [  48553]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,311 [  48559]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,323 [  48571]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,325 [  48573]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,326 [  48574]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:43,327 [  48575]   WARN - #org.editorconfig.language.schema.parser.EditorConfigJsonSchemaParser - Found illegal descriptor: {}
+2024-06-03 20:46:50,054 [  55302]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of project : 29 to update, calculated in 339ms
+2024-06-03 20:46:53,205 [  58453]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for project. Unindexed files update took 19975ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:53,232 [  58480]   INFO - STDOUT - Waiting for startup activities
+2024-06-03 20:46:53,344 [  58592]   INFO - #o.j.p.g.j.IdeVersionedDataUpdater - Updating version compatibility for org.jetbrains.plugins.gradle.jvmcompat.GradleCompatibilitySupportUpdater. Last update was: 0. Update interval: 1 Url to update https://download.jetbrains.com/resources/intellij/plugins/gradle/v1/compatibility.json
+2024-06-03 20:46:53,348 [  58596]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-06-03 20:46:53,351 [  58599]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 66 ms: ConstantEntitiesCheckActivity
+2024-06-03 20:46:53,358 [  58606]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of project. Reason: changes in: "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)"
+2024-06-03 20:46:53,359 [  58607]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for project took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:53,361 [  58609]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of project uses 8 scanning threads
+2024-06-03 20:46:53,382 [  58630]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [<Project>]
+2024-06-03 20:46:53,392 [  58640]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_functions.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_functions.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3779, fileInfo='sass_functions.scss(id=3779)'}] and removers: []; 
+2024-06-03 20:46:53,393 [  58641]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_color.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_color.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3784, fileInfo='sass_color.scss(id=3784)'}] and removers: []; 
+2024-06-03 20:46:53,395 [  58643]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_list.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_list.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3785, fileInfo='sass_list.scss(id=3785)'}] and removers: []; 
+2024-06-03 20:46:53,396 [  58644]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_map.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_map.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3786, fileInfo='sass_map.scss(id=3786)'}] and removers: []; 
+2024-06-03 20:46:53,397 [  58645]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_math.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_math.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3787, fileInfo='sass_math.scss(id=3787)'}] and removers: []; 
+2024-06-03 20:46:53,397 [  58645]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_meta.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_meta.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3788, fileInfo='sass_meta.scss(id=3788)'}] and removers: []; 
+2024-06-03 20:46:53,398 [  58646]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_selector.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_selector.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3789, fileInfo='sass_selector.scss(id=3789)'}] and removers: []; 
+2024-06-03 20:46:53,399 [  58647]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_string.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_string.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=3790, fileInfo='sass_string.scss(id=3790)'}] and removers: []; 
+2024-06-03 20:46:53,405 [  58653]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for project. Number of scanned files: 8; number of files for indexing: 8 took 45ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:53,408 [  58656]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 4 indexing and 4 writing threads for indexing
+2024-06-03 20:46:53,696 [  58944]   INFO - #c.i.o.p.SmartModeScheduler - Post-startup activity executed. Current mode: 4
+2024-06-03 20:46:53,727 [  58975]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2024-06-03 20:46:53,733 [  58981]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 506ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:53,781 [  59029]   INFO - #git4idea.commands.GitHandler - [.] git version
+2024-06-03 20:46:53,808 [  59056]   INFO - #git4idea.commands.GitHandler - git version 2.30.2
+2024-06-03 20:46:53,834 [  59082]   INFO - #git4idea.config.GitExecutableManager - Git version for /usr/bin/git: 2.30.2.0 (UNIX)
+2024-06-03 20:46:53,841 [  59089]   INFO - #o.j.p.g.j.IdeVersionedDataUpdater - IDE versioned data for org.jetbrains.plugins.gradle.jvmcompat.GradleCompatibilitySupportUpdater was updated
+2024-06-03 20:46:54,096 [  59344]   INFO - #c.i.o.v.i.p.NewMappings - Mapped Roots: 1
+2024-06-03 20:46:54,099 [  59347]   INFO - #c.i.o.v.i.p.NewMappings - Detected mapped Root: [Git] - [/data/project]
+2024-06-03 20:46:54,128 [  59376]   INFO - #c.i.i.s.p.i.SharedIndexChunkConfigurationImpl - Chunk bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-QDJVM-241.17569.155 is registered for project 'project: matching: (fb=52, stub=67), incompatible: (fb=0, stub=0), unknown: (fb=9, stub=9), 
+2024-06-03 20:46:54,191 [  59439]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of project : 0 to update, calculated in 0ms
+2024-06-03 20:46:54,212 [  59460]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for project. Unindexed files update took 804ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:46:54,343 [  59591]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 5 millis (read time: 4)
+2024-06-03 20:46:54,497 [  59745]   INFO - #c.i.i.s.p.i.SharedIndexChunkConfigurationImpl - Chunk bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-QDJVM-241.17569.155 is registered for project 'project: matching: (fb=35, stub=65), incompatible: (fb=0, stub=0), unknown: (fb=10, stub=9), 
+2024-06-03 20:46:54,511 [  59759]   INFO - #c.i.i.s.p.i.BundledSharedIndexPostStartupActivity - Attached 2 pre-built shared indexes: bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-QDJVM-241.17569.155, bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-QDJVM-241.17569.155
+2024-06-03 20:46:55,172 [  60420]   INFO - STDOUT - Startup activities finished
+2024-06-03 20:46:55,432 [  60680]   INFO - #c.i.v.l.d.VcsLogData - Vcs log index is turned off in the registry
+2024-06-03 20:46:55,537 [  60785]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2024-06-03 20:46:55,549 [  60797]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2024-06-03 20:46:55,667 [  60915]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 8
+2024-06-03 20:46:56,163 [  61411]   INFO - #c.i.j.n.n.WorkingDirectoryDependentNpmPackageVersionManager - Version fetched successfully: 10.5.2; command: /usr/local/bin/npm --version, duration: 292ms
+2024-06-03 20:46:59,983 [  65231]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project opening ... so far 1m
+2024-06-03 20:46:59,985 [  65233]   INFO - STDOUT - Keep running Project opening ... so far 1m
+2024-06-03 20:47:19,519 [  84767]   INFO - #c.i.j.n.l.n.NodeModulesDirectoryManager - Contributed {allCalculationsDuration:59169 ms, allIncludedFileCount:2992, allRootsSyntheticLibrary:193, allRootsWorkspaceModel:1766, allSourceRootsSyntheticLibrary:145, allSourceRootsWorkspaceModel:685, allExcludedRootsSyntheticLibrary:48, allExcludedRootsWorkspaceModel:1081, libraries:1}
+2024-06-03 20:47:19,632 [  84880]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs from [/data/cache/idea/241/caches/huge-gists] ...
+2024-06-03 20:47:19,637 [  84885]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs finished
+2024-06-03 20:47:29,984 [  95232]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project opening ... so far 1m 30s
+2024-06-03 20:47:29,986 [  95234]   INFO - STDOUT - Keep running Project opening ... so far 1m 30s
+2024-06-03 20:47:31,101 [  96349]   INFO - STDOUT - done.
+2024-06-03 20:47:31,102 [  96350]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project opening stage completed in 1m 31s
+2024-06-03 20:47:31,103 [  96351]   INFO - STDOUT - The Project opening stage completed in 1m 31s
+2024-06-03 20:47:31,105 [  96353]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project configuration stage ...
+2024-06-03 20:47:31,108 [  96356]   INFO - STDOUT - Preparing for the Project configuration stage ...
+2024-06-03 20:47:31,110 [  96358]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2024-06-03 20:47:36,271 [ 101519]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-06-03 20:47:36,273 [ 101521]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 4 in 5156 ms: JS: apply diff
+2024-06-03 20:47:36,277 [ 101525]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model update details: Updater code: 16 ms, Pre handlers: 1 ms, Collect changes: 0 ms
+2024-06-03 20:47:36,278 [ 101526]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Bridge initialization: 0 ms, To snapshot: 1 ms
+2024-06-03 20:47:36,280 [ 101528]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of project. Reason: changes in: "External roots from entity (empty; empty; aliases.d.ts, pseudos.d.ts, subselects.d.ts, ...; empty)"
+2024-06-03 20:47:36,291 [ 101539]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for project took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:47:36,293 [ 101541]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of project uses 8 scanning threads
+2024-06-03 20:47:36,371 [ 101619]   INFO - STDOUT - Detected 2 package.json files under the project to install dependencies
+2024-06-03 20:47:36,375 [ 101623]   INFO - #c.i.v.l.d.VcsLogData - Username not configured for root file:///data/project
+2024-06-03 20:47:36,377 [ 101625]   INFO - STDOUT - File file:///data/project/.angular/cache/17.3.6/vite/deps/package.json is skipped
+2024-06-03 20:47:36,378 [ 101626]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of aliases.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file aliases.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=61440, fileInfo='aliases.d.ts(id=61440)'}] and removers: []; 
+2024-06-03 20:47:36,378 [ 101626]   INFO - STDOUT - File file:///data/project/package.json is skipped
+2024-06-03 20:47:36,379 [ 101627]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of pseudos.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file pseudos.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=61444, fileInfo='pseudos.d.ts(id=61444)'}] and removers: []; 
+2024-06-03 20:47:36,381 [ 101629]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of subselects.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file subselects.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=61445, fileInfo='subselects.d.ts(id=61445)'}] and removers: []; 
+2024-06-03 20:47:36,386 [ 101634]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of filters.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file filters.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=61447, fileInfo='filters.d.ts(id=61447)'}] and removers: []; 
+2024-06-03 20:47:36,390 [ 101638]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of api.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file api.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=59585, fileInfo='api.d.ts(id=59585)'}] and removers: []; 
+2024-06-03 20:47:36,392 [ 101640]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of file.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file file.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=59580, fileInfo='file.d.ts(id=59580)'}] and removers: []; 
+2024-06-03 20:47:36,393 [ 101641]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of pool.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file pool.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=59586, fileInfo='pool.d.ts(id=59586)'}] and removers: []; 
+2024-06-03 20:47:36,395 [ 101643]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of util.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file util.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=59562, fileInfo='util.d.ts(id=59562)'}] and removers: []; 
+2024-06-03 20:47:36,396 [ 101644]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of agent.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file agent.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=59568, fileInfo='agent.d.ts(id=59568)'}] and removers: []; 
+2024-06-03 20:47:36,397 [ 101645]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of cache.d.ts by request of indexes: [Trigram.Index->NOT_INDEXED,fileIncludes->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,IdIndex->NOT_INDEXED,Stubs->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file cache.d.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=59587, fileInfo='cache.d.ts(id=59587)'}] and removers: []; 
+2024-06-03 20:47:41,257 [ 106505]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for project. Number of scanned files: 2992; number of files for indexing: 2992 took 4965ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:47:41,258 [ 106506]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 4 indexing and 4 writing threads for indexing
+2024-06-03 20:48:01,109 [ 126357]   INFO - #o.j.q.s.i.r.ConsoleLog - Keep running Project configuration ... so far 30s
+2024-06-03 20:48:01,110 [ 126358]   INFO - STDOUT - Keep running Project configuration ... so far 30s
+2024-06-03 20:48:03,976 [ 129224]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of project : 14 to update, calculated in 0ms
+2024-06-03 20:48:04,481 [ 129729]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for project. Unindexed files update took 23222ms; general responsiveness: ok; EDT responsiveness: ok
+2024-06-03 20:48:04,503 [ 129751]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-06-03 20:48:04,504 [ 129752]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 5 in 2 ms: Sync global entities with project: project
+2024-06-03 20:48:04,505 [ 129753]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Global model updated to version 2 in 11 ms: application library table commit
+2024-06-03 20:48:04,510 [ 129758]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2024-06-03 20:48:04,510 [ 129758]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 6 in 1 ms: Project library table commit
+2024-06-03 20:48:04,516 [ 129764]   INFO - #c.i.j.n.l.n.NodeModulesDirectoryManager - Associate project/node_modules with [file:///data/project]
+2024-06-03 20:48:04,543 [ 129791]   INFO - #c.i.d.MemorySizeConfigurator - Memory size configurator skipped: Unable to determine current -Xmx. VM options file is /root/.config/idea/ide.vmoptions
+2024-06-03 20:48:04,657 [ 129905]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project configuration stage completed in 33s
+2024-06-03 20:48:04,659 [ 129907]   INFO - STDOUT - The Project configuration stage completed in 33s
+2024-06-03 20:48:04,673 [ 129921]   INFO - o.j.q.i.linter - Loading dynamic inspections (FlexInspect)
+2024-06-03 20:48:04,681 [ 129929]   INFO - o.j.q.i.linter - FlexInspect: finished loading
+- total number of inspection.kts files: 0}
+- number of compiled inspection.kts files: 0}
+- number of inspections from compiled inspection.kts files: 0}
+- number of failed to compile inspection.kts files: 0} 
+2024-06-03 20:48:04,704 [ 129952]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
+2024-06-03 20:48:04,733 [ 129981]   INFO - #c.i.c.b.IsUpToDateCheckStartupActivity - suitable consumer is not found
+2024-06-03 20:48:04,842 [ 130090]   INFO - #c.i.v.l.d.VcsLogData - Vcs log index is turned off in the registry
+2024-06-03 20:48:04,945 [ 130193]   INFO - #c.i.v.l.d.VcsLogData - Username not configured for root file:///data/project
+2024-06-03 20:48:05,202 [ 130450]   INFO - #c.i.j.n.p.n.PackageVersionRangeMatcher - Matching 25 done in 100 ms
+2024-06-03 20:48:07,523 [ 132771]   INFO - STDOUT - Initializing project…Inspecting with the 'qodana.starter' profile
+2024-06-03 20:48:07,712 [ 132960]   INFO - #o.j.q.s.p.QodanaProfile - The 'qodana.sanity' profile is configured for sanity checks
+2024-06-03 20:48:08,007 [ 133255]   INFO - #o.j.q.s.p.QodanaProfile - The 'qodana.recommended' profile is configured for promo checks
+2024-06-03 20:48:11,173 [ 136421]   INFO - #c.i.c.e.GlobalJavaInspectionContextImpl - No source roots detected for module 'project'
+2024-06-03 20:48:11,174 [ 136422]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project analysis stage ...
+2024-06-03 20:48:11,175 [ 136423]   INFO - STDOUT - Preparing for the Project analysis stage ...
+2024-06-03 20:48:11,315 [ 136563]   INFO - #c.i.a.AnalysisScope - Scanning scope took 18 ms
+2024-06-03 20:48:11,339 [ 136587]   INFO - #c.j.d.i.CheckDependencyLicensesInspectionGlobal - Starting com.jetbrains.dependencyAnalysis.inspection.CheckDependencyLicensesInspectionGlobal
+2024-06-03 20:48:11,345 [ 136593]   INFO - #c.j.d.m.DependencyAnalysis - Collect data
+2024-06-03 20:48:11,382 [ 136630]   INFO - #c.j.d.m.ProjectAnalyzer - JS start analyze
+2024-06-03 20:48:11,391 [ 136639]   INFO - #c.j.d.j.JsProjectAnalyzer - Run npm list --json --omit=dev --long --all
+2024-06-03 20:48:12,641 [ 137889]   INFO - #c.j.d.j.JsProjectAnalyzer - Run parse npm list
+2024-06-03 20:48:20,359 [ 145607]   INFO - #c.j.d.m.ProjectAnalyzer - JS end analyze
+2024-06-03 20:48:20,400 [ 145648]   INFO - #c.j.d.m.DependencyAnalysis - Obtained ProjectMetadata
+2024-06-03 20:48:20,406 [ 145654]   INFO - #c.j.d.i.CheckDependencyLicensesInspectionGlobal - Ending com.jetbrains.dependencyAnalysis.inspection.CheckDependencyLicensesInspectionGlobal
+2024-06-03 20:48:20,421 [ 145669]   INFO - #c.i.c.e.GlobalJavaInspectionContextImpl - Processing external usages finished in 0 ms
+2024-06-03 20:48:23,148 [ 148396]   INFO - STDOUT - Analyzing code 1%
+2024-06-03 20:48:23,149 [ 148397]   INFO - STDOUT - Analyzing code 1%
+2024-06-03 20:48:23,151 [ 148399]   INFO - STDOUT - Analyzing code 2%
+2024-06-03 20:48:23,192 [ 148440]   INFO - STDOUT - Analyzing code 3%
+2024-06-03 20:48:23,201 [ 148449]   INFO - STDOUT - Analyzing code 4%
+2024-06-03 20:48:23,277 [ 148525]   INFO - STDOUT - Analyzing code 5%
+2024-06-03 20:48:23,280 [ 148528]   INFO - STDOUT - Analyzing code 6%
+2024-06-03 20:48:23,427 [ 148675]   INFO - STDOUT - Analyzing code 7%
+2024-06-03 20:48:23,440 [ 148688]   INFO - STDOUT - Analyzing code 8%
+2024-06-03 20:48:23,443 [ 148691]   INFO - STDOUT - Analyzing code 9%
+2024-06-03 20:48:23,445 [ 148693]   INFO - STDOUT - Analyzing code 10%
+2024-06-03 20:48:23,457 [ 148705]   INFO - STDOUT - Analyzing code 11%
+2024-06-03 20:48:23,461 [ 148709]   INFO - STDOUT - Analyzing code 12%
+2024-06-03 20:48:23,474 [ 148722]   INFO - #c.i.x.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/idea/lib/app.jar!/resources/html5-schema/html5.rnc
+2024-06-03 20:48:23,476 [ 148724]   INFO - STDOUT - Analyzing code 13%
+2024-06-03 20:48:23,524 [ 148772]   INFO - STDOUT - Analyzing code 14%
+2024-06-03 20:48:23,670 [ 148918]   INFO - STDOUT - Analyzing code 15%
+2024-06-03 20:48:23,670 [ 148918]   INFO - STDOUT - Analyzing code 16%
+2024-06-03 20:48:23,671 [ 148919]   INFO - STDOUT - Analyzing code 17%
+2024-06-03 20:48:23,674 [ 148922]   INFO - STDOUT - Analyzing code 18%
+2024-06-03 20:48:23,680 [ 148928]   INFO - STDOUT - Analyzing code 19%
+2024-06-03 20:48:23,689 [ 148937]   INFO - STDOUT - Analyzing code 20%
+2024-06-03 20:48:23,791 [ 149039]   INFO - STDOUT - Analyzing code 21%
+2024-06-03 20:48:23,795 [ 149043]   INFO - STDOUT - Analyzing code 22%
+2024-06-03 20:48:23,808 [ 149056]   INFO - STDOUT - Analyzing code 23%
+2024-06-03 20:48:24,027 [ 149275]   INFO - STDOUT - Analyzing code 24%
+2024-06-03 20:48:24,042 [ 149290]   INFO - STDOUT - Analyzing code 25%
+2024-06-03 20:48:24,056 [ 149304]   INFO - STDOUT - Analyzing code 26%
+2024-06-03 20:48:24,115 [ 149363]   INFO - STDOUT - Analyzing code 27%
+2024-06-03 20:48:24,197 [ 149445]   INFO - STDOUT - Analyzing code 28%
+2024-06-03 20:48:24,207 [ 149455]   INFO - STDOUT - Analyzing code 29%
+2024-06-03 20:48:24,214 [ 149462]   INFO - STDOUT - Analyzing code 30%
+2024-06-03 20:48:24,390 [ 149638]   INFO - STDOUT - Analyzing code 31%
+2024-06-03 20:48:24,494 [ 149742]   INFO - STDOUT - Analyzing code 32%
+2024-06-03 20:48:24,645 [ 149893]   INFO - STDOUT - Analyzing code 33%
+2024-06-03 20:48:24,661 [ 149909]   INFO - STDOUT - Analyzing code 34%
+2024-06-03 20:48:24,672 [ 149920]   INFO - STDOUT - Analyzing code 35%
+2024-06-03 20:48:24,681 [ 149929]   INFO - STDOUT - Analyzing code 36%
+2024-06-03 20:48:24,693 [ 149941]   INFO - STDOUT - Analyzing code 37%
+2024-06-03 20:48:24,694 [ 149942]   INFO - STDOUT - Analyzing code 37%
+2024-06-03 20:48:24,711 [ 149959]   INFO - STDOUT - Analyzing code 38%
+2024-06-03 20:48:24,721 [ 149969]   INFO - STDOUT - Analyzing code 39%
+2024-06-03 20:48:24,725 [ 149973]   INFO - STDOUT - Analyzing code 40%
+2024-06-03 20:48:24,729 [ 149977]   INFO - STDOUT - Analyzing code 41%
+2024-06-03 20:48:24,741 [ 149989]   INFO - STDOUT - Analyzing code 42%
+2024-06-03 20:48:24,749 [ 149997]   INFO - STDOUT - Analyzing code 43%
+2024-06-03 20:48:24,758 [ 150006]   INFO - STDOUT - Analyzing code 44%
+2024-06-03 20:48:24,785 [ 150033]   INFO - STDOUT - Analyzing code 45%
+2024-06-03 20:48:24,794 [ 150042]   INFO - STDOUT - Analyzing code 46%
+2024-06-03 20:48:24,814 [ 150062]   INFO - STDOUT - Analyzing code 47%
+2024-06-03 20:48:24,826 [ 150074]   INFO - STDOUT - Analyzing code 48%
+2024-06-03 20:48:24,843 [ 150091]   INFO - STDOUT - Analyzing code 49%
+2024-06-03 20:48:24,849 [ 150097]   INFO - STDOUT - Analyzing code 50%
+2024-06-03 20:48:24,896 [ 150144]   INFO - #c.i.i.s.DeviceIdManager - Generating new Device ID for 'PackageChecker'
+2024-06-03 20:48:24,944 [ 150192]   INFO - STDOUT - Analyzing code 51%
+2024-06-03 20:48:24,959 [ 150207]   INFO - #c.i.p.m.MavenProjectDependenciesModel - Start collecting all modules
+2024-06-03 20:48:24,962 [ 150210]   INFO - #c.i.p.g.GradleProjectDependenciesModel - Start collecting all modules
+2024-06-03 20:48:24,967 [ 150215]   INFO - #c.i.p.g.GradleProjectDependenciesModel - Finish collecting all modules, count of found modules: 0
+2024-06-03 20:48:24,969 [ 150217]   INFO - STDOUT - Analyzing code 52%
+2024-06-03 20:48:24,971 [ 150219]   INFO - #c.i.p.m.ProjectDependenciesModuleAggregator - Supported models after update: [NpmProjectDependenciesModel, IntellijModuleProjectDependenciesModel, IntellijProjectDependenciesModel]
+2024-06-03 20:48:24,976 [ 150224]   INFO - #c.i.p.m.i.ProjectDependenciesModelImpl - Count of declared packages: null, imported packages: null
+2024-06-03 20:48:24,991 [ 150239]   INFO - STDOUT - Analyzing code 53%
+2024-06-03 20:48:25,002 [ 150250]   INFO - STDOUT - Analyzing code 54%
+2024-06-03 20:48:25,007 [ 150255]   INFO - STDOUT - Analyzing code 55%
+2024-06-03 20:48:25,013 [ 150261]   INFO - #c.i.p.m.i.ProjectDependenciesModelImpl - Count of declared packages: 25, imported packages: null
+2024-06-03 20:48:25,015 [ 150263]   INFO - STDOUT - Analyzing code 55%
+2024-06-03 20:48:25,016 [ 150264]   INFO - STDOUT - Analyzing code 56%
+2024-06-03 20:48:25,028 [ 150276]   INFO - STDOUT - Analyzing code 57%
+2024-06-03 20:48:25,048 [ 150296]   INFO - STDOUT - Analyzing code 58%
+2024-06-03 20:48:25,060 [ 150308]   INFO - #c.i.p.m.i.ProjectDependenciesModelImpl - Count of declared packages: 25, imported packages: 25
+2024-06-03 20:48:25,069 [ 150317]   INFO - STDOUT - Analyzing code 59%
+2024-06-03 20:48:25,143 [ 150391]   INFO - STDOUT - Analyzing code 60%
+2024-06-03 20:48:25,210 [ 150458]   INFO - STDOUT - Analyzing code 61%
+2024-06-03 20:48:25,222 [ 150470]   INFO - STDOUT - Analyzing code 62%
+2024-06-03 20:48:25,517 [ 150765]   INFO - STDOUT - Analyzing code 63%
+2024-06-03 20:48:25,518 [ 150766]   INFO - STDOUT - Analyzing code 65%
+2024-06-03 20:48:25,519 [ 150767]   INFO - STDOUT - Analyzing code 64%
+2024-06-03 20:48:25,529 [ 150777]   INFO - STDOUT - Analyzing code 65%
+2024-06-03 20:48:25,536 [ 150784]   INFO - STDOUT - Analyzing code 66%
+2024-06-03 20:48:25,542 [ 150790]   INFO - STDOUT - Analyzing code 67%
+2024-06-03 20:48:25,745 [ 150993]   INFO - STDOUT - Analyzing code 68%
+2024-06-03 20:48:25,854 [ 151102]   INFO - STDOUT - Analyzing code 69%
+2024-06-03 20:48:25,872 [ 151120]   INFO - STDOUT - Analyzing code 70%
+2024-06-03 20:48:25,878 [ 151126]   INFO - STDOUT - Analyzing code 71%
+2024-06-03 20:48:26,014 [ 151262]   INFO - STDOUT - Analyzing code 72%
+2024-06-03 20:48:26,911 [ 152159]   INFO - STDOUT - Analyzing code 73%
+2024-06-03 20:48:27,102 [ 152350]   INFO - STDOUT - Analyzing code 74%
+2024-06-03 20:48:27,989 [ 153237]   INFO - STDOUT - Analyzing code 75%
+2024-06-03 20:48:27,990 [ 153238]   INFO - STDOUT - Analyzing code 75%
+2024-06-03 20:48:27,999 [ 153247]   INFO - #o.j.q.s.i.c.CoverageInspectionBase - Coverage for JavaCoverageEngine - provided 0 files
+2024-06-03 20:48:29,254 [ 154502]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project analysis stage completed in 18s
+2024-06-03 20:48:29,254 [ 154502]   INFO - STDOUT - The Project analysis stage completed in 18s
+2024-06-03 20:48:29,260 [ 154508]   INFO - #o.j.q.s.i.r.AsyncInspectionToolResultWriter - Async result writer started
+2024-06-03 20:48:29,276 [ 154524]   INFO - #c.j.d.m.DependencyAnalysisDescriber - Running Dependency Analysis project describer
+2024-06-03 20:48:29,836 [ 155084]   INFO - #o.j.q.s.s.n.RuntimeNotificationCollector$NotificationReportContributor - No tool errors to report to sarif file
+2024-06-03 20:48:30,150 [ 155398]   INFO - STDOUT - 
+2024-06-03 20:48:30,161 [ 155409]   INFO - STDOUT - Qodana - Detailed summary
+2024-06-03 20:48:30,161 [ 155409]   INFO - STDOUT - Analysis results: 0 problem detected
+2024-06-03 20:48:30,162 [ 155410]   INFO - STDOUT - 
+2024-06-03 20:48:30,644 [ 155892]   INFO - #o.j.q.s.i.r.QodanaInspectionApplication - sessionId: 24060320-268e00abf3f1
+2024-06-03 20:48:31,664 [ 156912]   INFO - o.j.q.s.SarifConverter - sarif file version: 2.1.0
+2024-06-03 20:48:31,667 [ 156915]   INFO - o.j.q.s.SarifConverter - Writing result-allProblems.json
+2024-06-03 20:48:31,683 [ 156931]   INFO - o.j.q.s.SarifConverter - Amount problems: 0
+2024-06-03 20:48:31,692 [ 156940]   INFO - o.j.q.s.SarifConverter - Writing metaInformation.json
+2024-06-03 20:48:31,693 [ 156941]   INFO - o.j.q.s.SarifConverter - Writing coverageInformation.json
+2024-06-03 20:48:31,694 [ 156942]   INFO - o.j.q.s.SarifConverter - Writing descriptions/Code_Inspection.json
+2024-06-03 20:48:31,752 [ 157000]   INFO - #o.j.q.run - Ran Qodana converter, results directory: /tmp/qodana-converter
+2024-06-03 20:48:33,925 [ 159173]   INFO - STDOUT - The report is uploaded to https://qodana.cloud/projects/3dkJo/reports/jN8kN
+2024-06-03 20:48:34,075 [ 159323]   WARN - #c.i.u.x.Binding - No accessors for org.jetbrains.kotlin.cli.common.arguments.InternalArgument. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-06-03 20:48:34,089 [ 159337]   WARN - #c.i.u.x.Binding - No accessors for org.jetbrains.security.package.Package. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-06-03 20:48:34,156 [ 159404]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=project, containerState=COMPONENT_CREATED, componentStore=/data/project)ProjectDependenciesModelState took 14 ms, XDebuggerManager took 26 ms
+2024-06-03 20:48:34,354 [ 159602]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
+2024-06-03 20:48:34,561 [ 159809]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2024-06-03 20:48:34,562 [ 159810]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2024-06-03 20:48:34,650 [ 159898]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {MAVEN_REPOSITORY=/data/cache/.m2}
+2024-06-03 20:48:34,664 [ 159912]   INFO - #c.i.c.ComponentStoreImpl - Saving appDebuggerSettings took 11 ms, FeatureUsageStatistics took 13 ms
+2024-06-03 20:48:34,749 [ 159997]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2024-06-03 20:48:34,771 [ 160019]   INFO - #o.j.i.BuiltInServer - web server stopped
+2024-06-03 20:48:34,798 [ 160046]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2024-06-03 20:48:35,090 [ 160338]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2024-06-03 20:48:35,090 [ 160338]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/241/index/rep.names
+2024-06-03 20:48:35,091 [ 160339]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/241/index/rep.names
+2024-06-03 20:48:35,094 [ 160342]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 296ms.
+2024-06-03 20:48:37,102 [ 162350]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2024-06-03 20:48:37,104 [ 162352]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2024-06-03 20:48:37,106 [ 162354]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 3 ms.
+2024-06-03 20:48:37,107 [ 162355]   INFO - #c.i.o.f.i.FileTypeDetectionService - 10 auto-detected files. Detection took 88 ms
+2024-06-03 20:48:37,145 [ 162393]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

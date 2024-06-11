@@ -1,0 +1,19 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "linter": "QDJVM",
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/LeafOfBread/webproject.git",
+        "revisionId": "48e9bf45955cdf2725599f5dd9ea6e7691f34bd8",
+        "branch": "master"
+      }
+    },
+    "repoUrl": "https://github.com/LeafOfBread/webproject.git",
+    "deviceId": "200820300000000-a954-bbd2-d9c6-ad2ea3189574",
+    "jobUrl": ""
+  }
+}

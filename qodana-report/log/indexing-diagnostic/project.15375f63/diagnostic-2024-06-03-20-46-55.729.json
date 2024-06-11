@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "241.17569.155",
+    "buildDate" : "2024-05-23T05:12:00Z[UTC]",
+    "productCode" : "QDJVM",
+    "generated" : "2024-06-03T20:46:55.732970549Z",
+    "os" : "Linux 5.15.146.1-microsoft-standard-wsl2",
+    "runtime" : "JetBrains s.r.o. 17.0.11 17.0.11+1-b1207.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 13128171520,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 8,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 6451,
+      "concurrentHandlingWallTimeWithoutPauses" : 44847242,
+      "concurrentHandlingWallTimeWithPauses" : 44847242,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 37566071,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 225713,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 37244211,
+      "delayedPushPropertiesStageTime" : 11340,
+      "indexExtensionsTime" : 495771,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2024-06-03T20:46:53.357545305Z",
+      "updatingEnd" : "2024-06-03T20:46:54.214104741Z",
+      "totalWallTimeWithPauses" : 856534214,
+      "wallTimeOnPause" : 21149395,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 835384819
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 8,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 8
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 8,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 36880776,
+      "totalOneThreadTimeWithPauses" : 37566071,
+      "iterationAndScannersApplicationTime" : 225713,
+      "filesCheckTime" : 37244211,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 7961880,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 495771,
+      "roots" : [ ]
+    } ]
+  }
+}

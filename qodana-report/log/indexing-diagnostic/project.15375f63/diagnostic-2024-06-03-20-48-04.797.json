@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "241.17569.155",
+    "buildDate" : "2024-05-23T05:12:00Z[UTC]",
+    "productCode" : "QDJVM",
+    "generated" : "2024-06-03T20:48:04.813721701Z",
+    "os" : "Linux 5.15.146.1-microsoft-standard-wsl2",
+    "runtime" : "JetBrains s.r.o. 17.0.11 17.0.11+1-b1207.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 13128171520,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 8,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; aliases.d.ts, pseudos.d.ts, subselects.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 6731,
+      "concurrentHandlingWallTimeWithoutPauses" : 4964781654,
+      "concurrentHandlingWallTimeWithPauses" : 4964781654,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 4960241785,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 69067891,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 4890952830,
+      "delayedPushPropertiesStageTime" : 14408,
+      "indexExtensionsTime" : 76263071,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2024-06-03T20:47:36.280130919Z",
+      "updatingEnd" : "2024-06-03T20:48:04.483624662Z",
+      "totalWallTimeWithPauses" : 28203907508,
+      "wallTimeOnPause" : 413075,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 28203494433
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 2992,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 2992
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; aliases.d.ts, pseudos.d.ts, subselects.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 2992,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 2992,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 4855630040,
+      "totalOneThreadTimeWithPauses" : 4960241785,
+      "iterationAndScannersApplicationTime" : 69067891,
+      "filesCheckTime" : 4890952830,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 120588148,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 76263071,
+      "roots" : [ ]
+    } ]
+  }
+}

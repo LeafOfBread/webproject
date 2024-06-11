@@ -1,0 +1,67 @@
+# Third-party software list
+
+This page lists the third-party software dependencies used in project
+
+| Dependency                                                                                           | Version | Licenses                                                        |
+|------------------------------------------------------------------------------------------------------|---------|-----------------------------------------------------------------|
+| [@angular/animations](https://www.npmjs.com/package/@angular/animations)                             | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/common](https://www.npmjs.com/package/@angular/common)                                     | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/compiler](https://www.npmjs.com/package/@angular/compiler)                                 | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/core](https://www.npmjs.com/package/@angular/core)                                         | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/forms](https://www.npmjs.com/package/@angular/forms)                                       | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/platform-browser-dynamic](https://www.npmjs.com/package/@angular/platform-browser-dynamic) | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/platform-browser](https://www.npmjs.com/package/@angular/platform-browser)                 | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@angular/router](https://www.npmjs.com/package/@angular/router)                                     | 17.3.7  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [@popperjs/core](https://www.npmjs.com/package/@popperjs/core)                                       | 2.11.8  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [accepts](https://www.npmjs.com/package/accepts)                                                     | 1.3.8   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [array-flatten](https://www.npmjs.com/package/array-flatten)                                         | 1.1.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [body-parser](https://www.npmjs.com/package/body-parser)                                             | 1.20.2  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [bootstrap](https://www.npmjs.com/package/bootstrap)                                                 | 5.3.3   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [bytes](https://www.npmjs.com/package/bytes)                                                         | 3.1.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [content-disposition](https://www.npmjs.com/package/content-disposition)                             | 0.5.4   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [content-type](https://www.npmjs.com/package/content-type)                                           | 1.0.5   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [cookie-signature](https://www.npmjs.com/package/cookie-signature)                                   | 1.0.6   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [cookie](https://www.npmjs.com/package/cookie)                                                       | 0.6.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [debug](https://www.npmjs.com/package/debug)                                                         | 2.6.9   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [depd](https://www.npmjs.com/package/depd)                                                           | 2.0.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [destroy](https://www.npmjs.com/package/destroy)                                                     | 1.2.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [encodeurl](https://www.npmjs.com/package/encodeurl)                                                 | 1.0.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [escape-html](https://www.npmjs.com/package/escape-html)                                             | 1.0.3   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [etag](https://www.npmjs.com/package/etag)                                                           | 1.8.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [express.js](https://www.npmjs.com/package/express.js)                                               | 1.0.0   | [ISC](https://www.isc.org/licenses/)                            |
+| [express](https://www.npmjs.com/package/express)                                                     | 4.19.2  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [finalhandler](https://www.npmjs.com/package/finalhandler)                                           | 1.2.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [forwarded](https://www.npmjs.com/package/forwarded)                                                 | 0.2.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [fresh](https://www.npmjs.com/package/fresh)                                                         | 0.5.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [http-errors](https://www.npmjs.com/package/http-errors)                                             | 2.0.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [iconv-lite](https://www.npmjs.com/package/iconv-lite)                                               | 0.4.24  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [ipaddr.js](https://www.npmjs.com/package/ipaddr.js)                                                 | 1.9.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [merge-descriptors](https://www.npmjs.com/package/merge-descriptors)                                 | 1.0.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [methods](https://www.npmjs.com/package/methods)                                                     | 1.1.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [mime-db](https://www.npmjs.com/package/mime-db)                                                     | 1.52.0  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [mime-types](https://www.npmjs.com/package/mime-types)                                               | 2.1.35  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [mime](https://www.npmjs.com/package/mime)                                                           | 1.6.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [ms](https://www.npmjs.com/package/ms)                                                               | 2.0.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [ms](https://www.npmjs.com/package/ms)                                                               | 2.1.3   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [negotiator](https://www.npmjs.com/package/negotiator)                                               | 0.6.3   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [ngx-bootstrap](https://www.npmjs.com/package/ngx-bootstrap)                                         | 12.0.0  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [on-finished](https://www.npmjs.com/package/on-finished)                                             | 2.4.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [parseurl](https://www.npmjs.com/package/parseurl)                                                   | 1.3.3   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [path-to-regexp](https://www.npmjs.com/package/path-to-regexp)                                       | 0.1.7   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [proxy-addr](https://www.npmjs.com/package/proxy-addr)                                               | 2.0.7   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [qs](https://www.npmjs.com/package/qs)                                                               | 6.11.0  | [BSD-3-Clause](http://www.opensource.org/licenses/BSD-3-Clause) |
+| [range-parser](https://www.npmjs.com/package/range-parser)                                           | 1.2.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [raw-body](https://www.npmjs.com/package/raw-body)                                                   | 2.5.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [rxjs](https://www.npmjs.com/package/rxjs)                                                           | 7.8.1   | [Apache-2.0](http://www.apache.org/licenses/)                   |
+| [safe-buffer](https://www.npmjs.com/package/safe-buffer)                                             | 5.2.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [safer-buffer](https://www.npmjs.com/package/safer-buffer)                                           | 2.1.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [send](https://www.npmjs.com/package/send)                                                           | 0.18.0  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [serve-static](https://www.npmjs.com/package/serve-static)                                           | 1.15.0  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [setprototypeof](https://www.npmjs.com/package/setprototypeof)                                       | 1.2.0   | [ISC](https://www.isc.org/licenses/)                            |
+| [statuses](https://www.npmjs.com/package/statuses)                                                   | 2.0.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [tslib](https://www.npmjs.com/package/tslib)                                                         | 2.6.2   | [0BSD](http://landley.net/toybox/license.html)                  |
+| [type-is](https://www.npmjs.com/package/type-is)                                                     | 1.6.18  | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [unpipe](https://www.npmjs.com/package/unpipe)                                                       | 1.0.0   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [utils-merge](https://www.npmjs.com/package/utils-merge)                                             | 1.0.1   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [vary](https://www.npmjs.com/package/vary)                                                           | 1.1.2   | [MIT](http://opensource.org/licenses/mit-license.php)           |
+| [zone.js](https://www.npmjs.com/package/zone.js)                                                     | 0.14.5  | [MIT](http://opensource.org/licenses/mit-license.php)           |

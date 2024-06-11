@@ -1,0 +1,2 @@
+{"@type":"attached","time":"2024-06-03T20:46:54.17543508Z[Etc/UTC]","kind":"bundled","chunkUniqueId":"bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-QDJVM-241.17569.155","indexName":"21.0.3,17.0.11,11.0.23","fbMatch":{"part":52,"total":52},"stubMatch":{"part":67,"total":67}}
+{"@type":"attached","time":"2024-06-03T20:46:54.499899163Z[Etc/UTC]","kind":"bundled","chunkUniqueId":"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-QDJVM-241.17569.155","indexName":"js-predefined-all","fbMatch":{"part":35,"total":35},"stubMatch":{"part":65,"total":65}}
