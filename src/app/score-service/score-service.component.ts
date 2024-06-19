@@ -2,19 +2,28 @@ import { Component } from '@angular/core';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+
+export interface Highscore {
+  username: string;
+  score: number;
+}
+
 @Injectable({
   providedIn: 'root',
 })
 
 export class ScoreServiceComponent {
-  constructor(private http: HttpClient) { } // httpclient einbinden
+  private url: string;
 
-  getHighscores(): Observable<any> {
-    return this.http.get('http://localhost:3000/highscores');
+  constructor(private http: HttpClient) {
+    this.url = 'http://localhost:3000/highscores'; //url ändern auf die url des servers
   }
 
-  postHighscore(username: string, score: number): Observable<any> {
-    const body = { username, score };
-    return this.http.post('http://localhost:3000/highscores', body);
+  getHighscores(): Observable<Highscore[]> {
+    return this.http.get<Highscore[]>(this.url);
+  }
+
+  postHighscore(username: string, score: number): Observable<Highscore> {
+    return this.http.post<Highscore>(this.url, { username, score });
   }
 }

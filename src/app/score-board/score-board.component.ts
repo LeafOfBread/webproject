@@ -34,20 +34,31 @@ export class ScoreBoardComponent implements OnInit {
       }
     });
     this.scoreService.getHighscores().subscribe(highscores => {
-      this.highscores = highscores.sort((a: Highscore, b: Highscore) => b.score - a.score);
+      if (highscores) {
+        this.highscores = highscores.sort((a: Highscore, b: Highscore) => b.score - a.score);
+      } else {
+        console.log('Highscores is null');
+      }
     });
   }
   
   sendHighscore(): void {
     if (!this.isLoggedIn) {
-      return; //highscore nicht senden, falls nicht eingelogged
+      console.log('User is not logged in');
+      return;
     }
     this.scoreService.postHighscore(this.username, this.score).subscribe(response => {
       console.log(response);
-      // refresh the highscores
+      // refreshe die highscores
       this.scoreService.getHighscores().subscribe(highscores => {
-        this.highscores = highscores;
+        if (highscores) {
+          this.highscores = highscores.sort((a: Highscore, b: Highscore) => b.score - a.score);
+        } else {
+          console.log('Highscores is null');
+        }
       });
+    }, error => {
+      console.error('Error sending highscore:', error);
     });
   }
 }

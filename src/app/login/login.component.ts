@@ -36,16 +36,6 @@ export class LoginComponent {
 
   constructor(private http: HttpClient, private userService: UserService){}
 
-  getHelloWorld() {
-    return this.http.get('http://localhost:3000', { responseType: 'text' });
-  }
-
-  ngOnInit(){
-    this.getHelloWorld().subscribe(response => {
-      console.log(response);
-    })
-  }
-
   passwordVisibility(){
     this.showPassword = !this.showPassword;
   }
